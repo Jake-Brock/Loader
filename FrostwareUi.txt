@@ -1,0 +1,4468 @@
+-- By diet and i4kc
+
+-- Instances:
+
+local Converted = {
+	["_FrostWare"] = Instance.new("ScreenGui");
+	["_Main"] = Instance.new("Frame");
+	["_UICorner"] = Instance.new("UICorner");
+	["_Side"] = Instance.new("Frame");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_Executor"] = Instance.new("ImageButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_home"] = Instance.new("ImageButton");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_Settings"] = Instance.new("ImageButton");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_Credits"] = Instance.new("ImageButton");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_ScriptSearcher"] = Instance.new("ImageButton");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_Top"] = Instance.new("Frame");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_Close"] = Instance.new("TextButton");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_Draggable"] = Instance.new("LocalScript");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_Settings1"] = Instance.new("Frame");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_TextLabel1"] = Instance.new("TextLabel");
+	["_Home"] = Instance.new("Frame");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_Frame1"] = Instance.new("Frame");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_TextLabel2"] = Instance.new("TextLabel");
+	["_Frame2"] = Instance.new("Frame");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_TextLabel3"] = Instance.new("TextLabel");
+	["_TextLabel4"] = Instance.new("TextLabel");
+	["_TextLabel5"] = Instance.new("TextLabel");
+	["_TextLabel6"] = Instance.new("TextLabel");
+	["_BasicInfo"] = Instance.new("Frame");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_FPS"] = Instance.new("TextLabel");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_FPSText"] = Instance.new("TextLabel");
+	["_Subscription"] = Instance.new("TextLabel");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_SubscriptionText"] = Instance.new("TextLabel");
+	["_RankText"] = Instance.new("TextLabel");
+	["_Rank"] = Instance.new("TextLabel");
+	["_LocalScript10"] = Instance.new("LocalScript");
+	["_user"] = Instance.new("Frame");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_Frame"] = Instance.new("Frame");
+	["_UICorner6"] = Instance.new("UICorner");
+	["_UIStroke3"] = Instance.new("UIStroke");
+	["_User"] = Instance.new("ImageLabel");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_UICorner7"] = Instance.new("UICorner");
+	["_UserText"] = Instance.new("TextLabel");
+	["_LocalScript12"] = Instance.new("LocalScript");
+	["_Extend"] = Instance.new("TextButton");
+	["_UIStroke4"] = Instance.new("UIStroke");
+	["_Credits2"] = Instance.new("Frame");
+	["_UICorner8"] = Instance.new("UICorner");
+	["_UIStroke5"] = Instance.new("UIStroke");
+	["_Close1"] = Instance.new("TextButton");
+	["_UIStroke6"] = Instance.new("UIStroke");
+	["_LocalScript13"] = Instance.new("LocalScript");
+	["_ImageLabel1"] = Instance.new("ImageLabel");
+	["_UIStroke7"] = Instance.new("UIStroke");
+	["_LocalScript14"] = Instance.new("LocalScript");
+	["_TextLabel7"] = Instance.new("TextLabel");
+	["_UICorner9"] = Instance.new("UICorner");
+	["_TextLabel8"] = Instance.new("TextLabel");
+	["_UICorner10"] = Instance.new("UICorner");
+	["_LocalScript15"] = Instance.new("LocalScript");
+	["_Executor1"] = Instance.new("Frame");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_Code"] = Instance.new("TextBox");
+	["_Clear"] = Instance.new("TextButton");
+	["_UICorner12"] = Instance.new("UICorner");
+	["_LocalScript16"] = Instance.new("LocalScript");
+	["_Execute"] = Instance.new("TextButton");
+	["_UICorner13"] = Instance.new("UICorner");
+	["_LocalScript17"] = Instance.new("LocalScript");
+	["_UICorner14"] = Instance.new("UICorner");
+	["_Paste"] = Instance.new("TextButton");
+	["_UICorner15"] = Instance.new("UICorner");
+	["_LocalScript18"] = Instance.new("LocalScript");
+	["_Credits1"] = Instance.new("Frame");
+	["_UICorner16"] = Instance.new("UICorner");
+	["_TextLabel9"] = Instance.new("TextLabel");
+	["_ImageLabel2"] = Instance.new("ImageLabel");
+	["_UIStroke8"] = Instance.new("UIStroke");
+	["_ImageLabel3"] = Instance.new("ImageLabel");
+	["_UIStroke9"] = Instance.new("UIStroke");
+	["_LocalScript19"] = Instance.new("LocalScript");
+	["_TextLabel10"] = Instance.new("TextLabel");
+	["_UICorner17"] = Instance.new("UICorner");
+	["_TextLabel11"] = Instance.new("TextLabel");
+	["_TextLabel12"] = Instance.new("TextLabel");
+	["_UICorner18"] = Instance.new("UICorner");
+	["_TextLabel13"] = Instance.new("TextLabel");
+	["_UICorner19"] = Instance.new("UICorner");
+	["_TextLabel14"] = Instance.new("TextLabel");
+	["_UICorner20"] = Instance.new("UICorner");
+	["_ScriptSearcher1"] = Instance.new("Frame");
+	["_UICorner21"] = Instance.new("UICorner");
+	["_Text"] = Instance.new("TextBox");
+	["_UICorner22"] = Instance.new("UICorner");
+	["_LocalScript20"] = Instance.new("LocalScript");
+	["_UIStroke10"] = Instance.new("UIStroke");
+	["_Search"] = Instance.new("ImageButton");
+	["_Clear1"] = Instance.new("TextButton");
+	["_UICorner23"] = Instance.new("UICorner");
+	["_LocalScript21"] = Instance.new("LocalScript");
+	["_Results-Scroll"] = Instance.new("ScrollingFrame");
+	["_UIGridLayout"] = Instance.new("UIGridLayout");
+	["_UIPadding"] = Instance.new("UIPadding");
+	["_Main1"] = Instance.new("Frame");
+	["_UICorner24"] = Instance.new("UICorner");
+	["_UIStroke11"] = Instance.new("UIStroke");
+	["_Open Button"] = Instance.new("ImageButton");
+	["_UICorner25"] = Instance.new("UICorner");
+	["_Drag"] = Instance.new("LocalScript");
+	["_DONT DELETE"] = Instance.new("LocalScript");
+	["_UIOpened"] = Instance.new("LocalScript");
+	["_RoUI3 Exports"] = Instance.new("Folder");
+	["_Main2"] = Instance.new("AnimationController");
+	["_keyframes_0"] = Instance.new("Folder");
+	["_Size"] = Instance.new("Keyframe");
+	["_BackgroundTransparency"] = Instance.new("Keyframe");
+	["_Position"] = Instance.new("Keyframe");
+	["_keyframes_1"] = Instance.new("Folder");
+	["_Size1"] = Instance.new("Keyframe");
+	["_BackgroundTransparency1"] = Instance.new("Keyframe");
+	["_Position1"] = Instance.new("Keyframe");
+	["_keyframes_2"] = Instance.new("Folder");
+	["_Size2"] = Instance.new("Keyframe");
+	["_BackgroundTransparency2"] = Instance.new("Keyframe");
+	["_Position2"] = Instance.new("Keyframe");
+	["_keyframes_3"] = Instance.new("Folder");
+	["_Size3"] = Instance.new("Keyframe");
+	["_BackgroundTransparency3"] = Instance.new("Keyframe");
+	["_Position3"] = Instance.new("Keyframe");
+	["_keyframes_4"] = Instance.new("Folder");
+	["_Size4"] = Instance.new("Keyframe");
+	["_BackgroundTransparency4"] = Instance.new("Keyframe");
+	["_Position4"] = Instance.new("Keyframe");
+	["_keyframes_5"] = Instance.new("Folder");
+	["_Size5"] = Instance.new("Keyframe");
+	["_BackgroundTransparency5"] = Instance.new("Keyframe");
+	["_Position5"] = Instance.new("Keyframe");
+	["_keyframes_6"] = Instance.new("Folder");
+	["_Size6"] = Instance.new("Keyframe");
+	["_BackgroundTransparency6"] = Instance.new("Keyframe");
+	["_Position6"] = Instance.new("Keyframe");
+	["_keyframes_7"] = Instance.new("Folder");
+	["_Size7"] = Instance.new("Keyframe");
+	["_BackgroundTransparency7"] = Instance.new("Keyframe");
+	["_Position7"] = Instance.new("Keyframe");
+	["_keyframes_8"] = Instance.new("Folder");
+	["_Size8"] = Instance.new("Keyframe");
+	["_BackgroundTransparency8"] = Instance.new("Keyframe");
+	["_Position8"] = Instance.new("Keyframe");
+	["_keyframes_9"] = Instance.new("Folder");
+	["_Size9"] = Instance.new("Keyframe");
+	["_BackgroundTransparency9"] = Instance.new("Keyframe");
+	["_Position9"] = Instance.new("Keyframe");
+	["_keyframes_10"] = Instance.new("Folder");
+	["_Size10"] = Instance.new("Keyframe");
+	["_BackgroundTransparency10"] = Instance.new("Keyframe");
+	["_Position10"] = Instance.new("Keyframe");
+	["_keyframes_11"] = Instance.new("Folder");
+	["_Size11"] = Instance.new("Keyframe");
+	["_BackgroundTransparency11"] = Instance.new("Keyframe");
+	["_Position11"] = Instance.new("Keyframe");
+	["_keyframes_12"] = Instance.new("Folder");
+	["_Size12"] = Instance.new("Keyframe");
+	["_BackgroundTransparency12"] = Instance.new("Keyframe");
+	["_Position12"] = Instance.new("Keyframe");
+	["_keyframes_13"] = Instance.new("Folder");
+	["_Size13"] = Instance.new("Keyframe");
+	["_BackgroundTransparency13"] = Instance.new("Keyframe");
+	["_Position13"] = Instance.new("Keyframe");
+	["_keyframes_14"] = Instance.new("Folder");
+	["_Size14"] = Instance.new("Keyframe");
+	["_BackgroundTransparency14"] = Instance.new("Keyframe");
+	["_Position14"] = Instance.new("Keyframe");
+	["_keyframes_15"] = Instance.new("Folder");
+	["_Size15"] = Instance.new("Keyframe");
+	["_BackgroundTransparency15"] = Instance.new("Keyframe");
+	["_Position15"] = Instance.new("Keyframe");
+	["_keyframes_16"] = Instance.new("Folder");
+	["_Size16"] = Instance.new("Keyframe");
+	["_BackgroundTransparency16"] = Instance.new("Keyframe");
+	["_Position16"] = Instance.new("Keyframe");
+	["_keyframes_17"] = Instance.new("Folder");
+	["_Size17"] = Instance.new("Keyframe");
+	["_BackgroundTransparency17"] = Instance.new("Keyframe");
+	["_Position17"] = Instance.new("Keyframe");
+	["_keyframes_18"] = Instance.new("Folder");
+	["_Size18"] = Instance.new("Keyframe");
+	["_BackgroundTransparency18"] = Instance.new("Keyframe");
+	["_Position18"] = Instance.new("Keyframe");
+	["_keyframes_19"] = Instance.new("Folder");
+	["_Size19"] = Instance.new("Keyframe");
+	["_BackgroundTransparency19"] = Instance.new("Keyframe");
+	["_Position19"] = Instance.new("Keyframe");
+	["_keyframes_20"] = Instance.new("Folder");
+	["_Size20"] = Instance.new("Keyframe");
+	["_BackgroundTransparency20"] = Instance.new("Keyframe");
+	["_Position20"] = Instance.new("Keyframe");
+	["_keyframes_21"] = Instance.new("Folder");
+	["_Size21"] = Instance.new("Keyframe");
+	["_BackgroundTransparency21"] = Instance.new("Keyframe");
+	["_Position21"] = Instance.new("Keyframe");
+	["_keyframes_22"] = Instance.new("Folder");
+	["_Size22"] = Instance.new("Keyframe");
+	["_BackgroundTransparency22"] = Instance.new("Keyframe");
+	["_Position22"] = Instance.new("Keyframe");
+	["_keyframes_23"] = Instance.new("Folder");
+	["_Size23"] = Instance.new("Keyframe");
+	["_BackgroundTransparency23"] = Instance.new("Keyframe");
+	["_Position23"] = Instance.new("Keyframe");
+	["_keyframes_24"] = Instance.new("Folder");
+	["_Size24"] = Instance.new("Keyframe");
+	["_BackgroundTransparency24"] = Instance.new("Keyframe");
+	["_Position24"] = Instance.new("Keyframe");
+	["_keyframes_25"] = Instance.new("Folder");
+	["_Size25"] = Instance.new("Keyframe");
+	["_BackgroundTransparency25"] = Instance.new("Keyframe");
+	["_Position25"] = Instance.new("Keyframe");
+	["_keyframes_26"] = Instance.new("Folder");
+	["_Size26"] = Instance.new("Keyframe");
+	["_BackgroundTransparency26"] = Instance.new("Keyframe");
+	["_Position26"] = Instance.new("Keyframe");
+	["_keyframes_27"] = Instance.new("Folder");
+	["_Size27"] = Instance.new("Keyframe");
+	["_BackgroundTransparency27"] = Instance.new("Keyframe");
+	["_Position27"] = Instance.new("Keyframe");
+	["_keyframes_28"] = Instance.new("Folder");
+	["_Size28"] = Instance.new("Keyframe");
+	["_Position28"] = Instance.new("Keyframe");
+	["_keyframes_29"] = Instance.new("Folder");
+	["_Size29"] = Instance.new("Keyframe");
+	["_Position29"] = Instance.new("Keyframe");
+	["_Main2"] = Instance.new("AnimationController");
+	["_keyframes_01"] = Instance.new("Folder");
+	["_Size30"] = Instance.new("Keyframe");
+	["_BackgroundTransparency28"] = Instance.new("Keyframe");
+	["_Position30"] = Instance.new("Keyframe");
+	["_keyframes_11"] = Instance.new("Folder");
+	["_Size31"] = Instance.new("Keyframe");
+	["_BackgroundTransparency29"] = Instance.new("Keyframe");
+	["_Position31"] = Instance.new("Keyframe");
+	["_keyframes_21"] = Instance.new("Folder");
+	["_Size32"] = Instance.new("Keyframe");
+	["_BackgroundTransparency30"] = Instance.new("Keyframe");
+	["_Position32"] = Instance.new("Keyframe");
+	["_keyframes_31"] = Instance.new("Folder");
+	["_Size33"] = Instance.new("Keyframe");
+	["_BackgroundTransparency31"] = Instance.new("Keyframe");
+	["_Position33"] = Instance.new("Keyframe");
+	["_keyframes_41"] = Instance.new("Folder");
+	["_Size34"] = Instance.new("Keyframe");
+	["_BackgroundTransparency32"] = Instance.new("Keyframe");
+	["_Position34"] = Instance.new("Keyframe");
+	["_keyframes_51"] = Instance.new("Folder");
+	["_Size35"] = Instance.new("Keyframe");
+	["_BackgroundTransparency33"] = Instance.new("Keyframe");
+	["_Position35"] = Instance.new("Keyframe");
+	["_keyframes_61"] = Instance.new("Folder");
+	["_Size36"] = Instance.new("Keyframe");
+	["_BackgroundTransparency34"] = Instance.new("Keyframe");
+	["_Position36"] = Instance.new("Keyframe");
+	["_keyframes_71"] = Instance.new("Folder");
+	["_Size37"] = Instance.new("Keyframe");
+	["_BackgroundTransparency35"] = Instance.new("Keyframe");
+	["_Position37"] = Instance.new("Keyframe");
+	["_keyframes_81"] = Instance.new("Folder");
+	["_Size38"] = Instance.new("Keyframe");
+	["_BackgroundTransparency36"] = Instance.new("Keyframe");
+	["_Position38"] = Instance.new("Keyframe");
+	["_keyframes_91"] = Instance.new("Folder");
+	["_Size39"] = Instance.new("Keyframe");
+	["_BackgroundTransparency37"] = Instance.new("Keyframe");
+	["_Position39"] = Instance.new("Keyframe");
+	["_keyframes_101"] = Instance.new("Folder");
+	["_Size40"] = Instance.new("Keyframe");
+	["_BackgroundTransparency38"] = Instance.new("Keyframe");
+	["_Position40"] = Instance.new("Keyframe");
+	["_keyframes_111"] = Instance.new("Folder");
+	["_Size41"] = Instance.new("Keyframe");
+	["_BackgroundTransparency39"] = Instance.new("Keyframe");
+	["_Position41"] = Instance.new("Keyframe");
+	["_keyframes_121"] = Instance.new("Folder");
+	["_Size42"] = Instance.new("Keyframe");
+	["_BackgroundTransparency40"] = Instance.new("Keyframe");
+	["_Position42"] = Instance.new("Keyframe");
+	["_keyframes_131"] = Instance.new("Folder");
+	["_Size43"] = Instance.new("Keyframe");
+	["_BackgroundTransparency41"] = Instance.new("Keyframe");
+	["_Position43"] = Instance.new("Keyframe");
+	["_keyframes_141"] = Instance.new("Folder");
+	["_Size44"] = Instance.new("Keyframe");
+	["_BackgroundTransparency42"] = Instance.new("Keyframe");
+	["_Position44"] = Instance.new("Keyframe");
+	["_keyframes_151"] = Instance.new("Folder");
+	["_Size45"] = Instance.new("Keyframe");
+	["_BackgroundTransparency43"] = Instance.new("Keyframe");
+	["_Position45"] = Instance.new("Keyframe");
+	["_keyframes_161"] = Instance.new("Folder");
+	["_Size46"] = Instance.new("Keyframe");
+	["_BackgroundTransparency44"] = Instance.new("Keyframe");
+	["_Position46"] = Instance.new("Keyframe");
+	["_keyframes_171"] = Instance.new("Folder");
+	["_Size47"] = Instance.new("Keyframe");
+	["_BackgroundTransparency45"] = Instance.new("Keyframe");
+	["_Position47"] = Instance.new("Keyframe");
+	["_keyframes_181"] = Instance.new("Folder");
+	["_Size48"] = Instance.new("Keyframe");
+	["_BackgroundTransparency46"] = Instance.new("Keyframe");
+	["_Position48"] = Instance.new("Keyframe");
+	["_keyframes_191"] = Instance.new("Folder");
+	["_Size49"] = Instance.new("Keyframe");
+	["_BackgroundTransparency47"] = Instance.new("Keyframe");
+	["_Position49"] = Instance.new("Keyframe");
+	["_keyframes_201"] = Instance.new("Folder");
+	["_Size50"] = Instance.new("Keyframe");
+	["_BackgroundTransparency48"] = Instance.new("Keyframe");
+	["_Position50"] = Instance.new("Keyframe");
+	["_keyframes_211"] = Instance.new("Folder");
+	["_Size51"] = Instance.new("Keyframe");
+	["_BackgroundTransparency49"] = Instance.new("Keyframe");
+	["_Position51"] = Instance.new("Keyframe");
+	["_keyframes_221"] = Instance.new("Folder");
+	["_Size52"] = Instance.new("Keyframe");
+	["_BackgroundTransparency50"] = Instance.new("Keyframe");
+	["_Position52"] = Instance.new("Keyframe");
+	["_keyframes_231"] = Instance.new("Folder");
+	["_Size53"] = Instance.new("Keyframe");
+	["_BackgroundTransparency51"] = Instance.new("Keyframe");
+	["_Position53"] = Instance.new("Keyframe");
+	["_keyframes_241"] = Instance.new("Folder");
+	["_Size54"] = Instance.new("Keyframe");
+	["_BackgroundTransparency52"] = Instance.new("Keyframe");
+	["_Position54"] = Instance.new("Keyframe");
+	["_keyframes_251"] = Instance.new("Folder");
+	["_Size55"] = Instance.new("Keyframe");
+	["_BackgroundTransparency53"] = Instance.new("Keyframe");
+	["_Position55"] = Instance.new("Keyframe");
+	["_keyframes_261"] = Instance.new("Folder");
+	["_Size56"] = Instance.new("Keyframe");
+	["_BackgroundTransparency54"] = Instance.new("Keyframe");
+	["_Position56"] = Instance.new("Keyframe");
+	["_keyframes_271"] = Instance.new("Folder");
+	["_Size57"] = Instance.new("Keyframe");
+	["_BackgroundTransparency55"] = Instance.new("Keyframe");
+	["_Position57"] = Instance.new("Keyframe");
+	["_keyframes_281"] = Instance.new("Folder");
+	["_Size58"] = Instance.new("Keyframe");
+	["_BackgroundTransparency56"] = Instance.new("Keyframe");
+	["_Position58"] = Instance.new("Keyframe");
+	["_keyframes_291"] = Instance.new("Folder");
+	["_Size59"] = Instance.new("Keyframe");
+	["_BackgroundTransparency57"] = Instance.new("Keyframe");
+	["_Position59"] = Instance.new("Keyframe");
+	["_keyframes_30"] = Instance.new("Folder");
+	["_Size60"] = Instance.new("Keyframe");
+	["_BackgroundTransparency58"] = Instance.new("Keyframe");
+	["_Position60"] = Instance.new("Keyframe");
+	["_Credits21"] = Instance.new("AnimationController");
+	["_keyframes_02"] = Instance.new("Folder");
+	["_Visible"] = Instance.new("Keyframe");
+	["_BackgroundTransparency59"] = Instance.new("Keyframe");
+	["_Position61"] = Instance.new("Keyframe");
+	["_keyframes_12"] = Instance.new("Folder");
+	["_Visible1"] = Instance.new("Keyframe");
+	["_BackgroundTransparency60"] = Instance.new("Keyframe");
+	["_Position62"] = Instance.new("Keyframe");
+	["_keyframes_22"] = Instance.new("Folder");
+	["_BackgroundTransparency61"] = Instance.new("Keyframe");
+	["_Position63"] = Instance.new("Keyframe");
+	["_keyframes_32"] = Instance.new("Folder");
+	["_BackgroundTransparency62"] = Instance.new("Keyframe");
+	["_Position64"] = Instance.new("Keyframe");
+	["_keyframes_42"] = Instance.new("Folder");
+	["_BackgroundTransparency63"] = Instance.new("Keyframe");
+	["_Position65"] = Instance.new("Keyframe");
+	["_keyframes_52"] = Instance.new("Folder");
+	["_BackgroundTransparency64"] = Instance.new("Keyframe");
+	["_Position66"] = Instance.new("Keyframe");
+	["_keyframes_62"] = Instance.new("Folder");
+	["_BackgroundTransparency65"] = Instance.new("Keyframe");
+	["_Position67"] = Instance.new("Keyframe");
+	["_keyframes_72"] = Instance.new("Folder");
+	["_BackgroundTransparency66"] = Instance.new("Keyframe");
+	["_Position68"] = Instance.new("Keyframe");
+	["_keyframes_82"] = Instance.new("Folder");
+	["_BackgroundTransparency67"] = Instance.new("Keyframe");
+	["_Position69"] = Instance.new("Keyframe");
+	["_keyframes_92"] = Instance.new("Folder");
+	["_BackgroundTransparency68"] = Instance.new("Keyframe");
+	["_Position70"] = Instance.new("Keyframe");
+	["_keyframes_102"] = Instance.new("Folder");
+	["_BackgroundTransparency69"] = Instance.new("Keyframe");
+	["_Position71"] = Instance.new("Keyframe");
+	["_keyframes_112"] = Instance.new("Folder");
+	["_BackgroundTransparency70"] = Instance.new("Keyframe");
+	["_Position72"] = Instance.new("Keyframe");
+	["_keyframes_122"] = Instance.new("Folder");
+	["_BackgroundTransparency71"] = Instance.new("Keyframe");
+	["_Position73"] = Instance.new("Keyframe");
+	["_keyframes_132"] = Instance.new("Folder");
+	["_BackgroundTransparency72"] = Instance.new("Keyframe");
+	["_Position74"] = Instance.new("Keyframe");
+	["_keyframes_142"] = Instance.new("Folder");
+	["_BackgroundTransparency73"] = Instance.new("Keyframe");
+	["_Position75"] = Instance.new("Keyframe");
+	["_keyframes_152"] = Instance.new("Folder");
+	["_BackgroundTransparency74"] = Instance.new("Keyframe");
+	["_Position76"] = Instance.new("Keyframe");
+	["_keyframes_162"] = Instance.new("Folder");
+	["_BackgroundTransparency75"] = Instance.new("Keyframe");
+	["_Position77"] = Instance.new("Keyframe");
+	["_keyframes_172"] = Instance.new("Folder");
+	["_BackgroundTransparency76"] = Instance.new("Keyframe");
+	["_Position78"] = Instance.new("Keyframe");
+	["_keyframes_182"] = Instance.new("Folder");
+	["_BackgroundTransparency77"] = Instance.new("Keyframe");
+	["_Position79"] = Instance.new("Keyframe");
+	["_keyframes_192"] = Instance.new("Folder");
+	["_BackgroundTransparency78"] = Instance.new("Keyframe");
+	["_Position80"] = Instance.new("Keyframe");
+	["_keyframes_202"] = Instance.new("Folder");
+	["_BackgroundTransparency79"] = Instance.new("Keyframe");
+	["_Position81"] = Instance.new("Keyframe");
+	["_keyframes_212"] = Instance.new("Folder");
+	["_BackgroundTransparency80"] = Instance.new("Keyframe");
+	["_Position82"] = Instance.new("Keyframe");
+	["_keyframes_222"] = Instance.new("Folder");
+	["_BackgroundTransparency81"] = Instance.new("Keyframe");
+	["_Position83"] = Instance.new("Keyframe");
+	["_keyframes_232"] = Instance.new("Folder");
+	["_BackgroundTransparency82"] = Instance.new("Keyframe");
+	["_Position84"] = Instance.new("Keyframe");
+	["_keyframes_242"] = Instance.new("Folder");
+	["_BackgroundTransparency83"] = Instance.new("Keyframe");
+	["_Position85"] = Instance.new("Keyframe");
+	["_keyframes_252"] = Instance.new("Folder");
+	["_BackgroundTransparency84"] = Instance.new("Keyframe");
+	["_Position86"] = Instance.new("Keyframe");
+	["_keyframes_262"] = Instance.new("Folder");
+	["_BackgroundTransparency85"] = Instance.new("Keyframe");
+	["_Position87"] = Instance.new("Keyframe");
+	["_keyframes_272"] = Instance.new("Folder");
+	["_BackgroundTransparency86"] = Instance.new("Keyframe");
+	["_Position88"] = Instance.new("Keyframe");
+	["_keyframes_282"] = Instance.new("Folder");
+	["_BackgroundTransparency87"] = Instance.new("Keyframe");
+	["_Position89"] = Instance.new("Keyframe");
+	["_keyframes_292"] = Instance.new("Folder");
+	["_BackgroundTransparency88"] = Instance.new("Keyframe");
+	["_Position90"] = Instance.new("Keyframe");
+	["_keyframes_301"] = Instance.new("Folder");
+	["_BackgroundTransparency89"] = Instance.new("Keyframe");
+	["_Position91"] = Instance.new("Keyframe");
+	["_keyframes_31"] = Instance.new("Folder");
+	["_BackgroundTransparency90"] = Instance.new("Keyframe");
+	["_Position92"] = Instance.new("Keyframe");
+	["_keyframes_32"] = Instance.new("Folder");
+	["_BackgroundTransparency91"] = Instance.new("Keyframe");
+	["_Position93"] = Instance.new("Keyframe");
+	["_keyframes_33"] = Instance.new("Folder");
+	["_BackgroundTransparency92"] = Instance.new("Keyframe");
+	["_Position94"] = Instance.new("Keyframe");
+	["_keyframes_34"] = Instance.new("Folder");
+	["_BackgroundTransparency93"] = Instance.new("Keyframe");
+	["_Position95"] = Instance.new("Keyframe");
+	["_keyframes_35"] = Instance.new("Folder");
+	["_BackgroundTransparency94"] = Instance.new("Keyframe");
+	["_Position96"] = Instance.new("Keyframe");
+	["_keyframes_36"] = Instance.new("Folder");
+	["_BackgroundTransparency95"] = Instance.new("Keyframe");
+	["_Position97"] = Instance.new("Keyframe");
+	["_keyframes_37"] = Instance.new("Folder");
+	["_BackgroundTransparency96"] = Instance.new("Keyframe");
+	["_Position98"] = Instance.new("Keyframe");
+	["_keyframes_38"] = Instance.new("Folder");
+	["_BackgroundTransparency97"] = Instance.new("Keyframe");
+	["_Position99"] = Instance.new("Keyframe");
+	["_keyframes_39"] = Instance.new("Folder");
+	["_BackgroundTransparency98"] = Instance.new("Keyframe");
+	["_Position100"] = Instance.new("Keyframe");
+	["_keyframes_40"] = Instance.new("Folder");
+	["_BackgroundTransparency99"] = Instance.new("Keyframe");
+	["_Position101"] = Instance.new("Keyframe");
+	["_keyframes_41"] = Instance.new("Folder");
+	["_BackgroundTransparency100"] = Instance.new("Keyframe");
+	["_Position102"] = Instance.new("Keyframe");
+	["_keyframes_42"] = Instance.new("Folder");
+	["_BackgroundTransparency101"] = Instance.new("Keyframe");
+	["_Position103"] = Instance.new("Keyframe");
+	["_keyframes_43"] = Instance.new("Folder");
+	["_BackgroundTransparency102"] = Instance.new("Keyframe");
+	["_Position104"] = Instance.new("Keyframe");
+	["_keyframes_44"] = Instance.new("Folder");
+	["_BackgroundTransparency103"] = Instance.new("Keyframe");
+	["_Position105"] = Instance.new("Keyframe");
+	["_keyframes_45"] = Instance.new("Folder");
+	["_BackgroundTransparency104"] = Instance.new("Keyframe");
+	["_Position106"] = Instance.new("Keyframe");
+	["_keyframes_46"] = Instance.new("Folder");
+	["_BackgroundTransparency105"] = Instance.new("Keyframe");
+	["_Position107"] = Instance.new("Keyframe");
+	["_keyframes_47"] = Instance.new("Folder");
+	["_BackgroundTransparency106"] = Instance.new("Keyframe");
+	["_Position108"] = Instance.new("Keyframe");
+	["_keyframes_48"] = Instance.new("Folder");
+	["_BackgroundTransparency107"] = Instance.new("Keyframe");
+	["_Position109"] = Instance.new("Keyframe");
+	["_keyframes_49"] = Instance.new("Folder");
+	["_BackgroundTransparency108"] = Instance.new("Keyframe");
+	["_Position110"] = Instance.new("Keyframe");
+	["_keyframes_50"] = Instance.new("Folder");
+	["_BackgroundTransparency109"] = Instance.new("Keyframe");
+	["_Position111"] = Instance.new("Keyframe");
+	["_keyframes_51"] = Instance.new("Folder");
+	["_BackgroundTransparency110"] = Instance.new("Keyframe");
+	["_Position112"] = Instance.new("Keyframe");
+	["_keyframes_52"] = Instance.new("Folder");
+	["_BackgroundTransparency111"] = Instance.new("Keyframe");
+	["_Position113"] = Instance.new("Keyframe");
+	["_keyframes_53"] = Instance.new("Folder");
+	["_BackgroundTransparency112"] = Instance.new("Keyframe");
+	["_Position114"] = Instance.new("Keyframe");
+	["_keyframes_54"] = Instance.new("Folder");
+	["_BackgroundTransparency113"] = Instance.new("Keyframe");
+	["_Position115"] = Instance.new("Keyframe");
+	["_keyframes_55"] = Instance.new("Folder");
+	["_BackgroundTransparency114"] = Instance.new("Keyframe");
+	["_Position116"] = Instance.new("Keyframe");
+	["_keyframes_56"] = Instance.new("Folder");
+	["_BackgroundTransparency115"] = Instance.new("Keyframe");
+	["_Position117"] = Instance.new("Keyframe");
+	["_keyframes_57"] = Instance.new("Folder");
+	["_BackgroundTransparency116"] = Instance.new("Keyframe");
+	["_Position118"] = Instance.new("Keyframe");
+	["_keyframes_58"] = Instance.new("Folder");
+	["_BackgroundTransparency117"] = Instance.new("Keyframe");
+	["_Position119"] = Instance.new("Keyframe");
+	["_keyframes_59"] = Instance.new("Folder");
+	["_BackgroundTransparency118"] = Instance.new("Keyframe");
+	["_Position120"] = Instance.new("Keyframe");
+	["_keyframes_60"] = Instance.new("Folder");
+	["_BackgroundTransparency119"] = Instance.new("Keyframe");
+	["_Position121"] = Instance.new("Keyframe");
+	["_keyframes_61"] = Instance.new("Folder");
+	["_BackgroundTransparency120"] = Instance.new("Keyframe");
+	["_Position122"] = Instance.new("Keyframe");
+	["_keyframes_62"] = Instance.new("Folder");
+	["_BackgroundTransparency121"] = Instance.new("Keyframe");
+	["_Position123"] = Instance.new("Keyframe");
+	["_keyframes_63"] = Instance.new("Folder");
+	["_BackgroundTransparency122"] = Instance.new("Keyframe");
+	["_Position124"] = Instance.new("Keyframe");
+	["_keyframes_64"] = Instance.new("Folder");
+	["_BackgroundTransparency123"] = Instance.new("Keyframe");
+	["_Position125"] = Instance.new("Keyframe");
+	["_keyframes_65"] = Instance.new("Folder");
+	["_BackgroundTransparency124"] = Instance.new("Keyframe");
+	["_Position126"] = Instance.new("Keyframe");
+	["_keyframes_66"] = Instance.new("Folder");
+	["_BackgroundTransparency125"] = Instance.new("Keyframe");
+	["_Position127"] = Instance.new("Keyframe");
+	["_keyframes_67"] = Instance.new("Folder");
+	["_BackgroundTransparency126"] = Instance.new("Keyframe");
+	["_Position128"] = Instance.new("Keyframe");
+	["_keyframes_68"] = Instance.new("Folder");
+	["_BackgroundTransparency127"] = Instance.new("Keyframe");
+	["_Position129"] = Instance.new("Keyframe");
+	["_keyframes_69"] = Instance.new("Folder");
+	["_BackgroundTransparency128"] = Instance.new("Keyframe");
+	["_Position130"] = Instance.new("Keyframe");
+	["_keyframes_70"] = Instance.new("Folder");
+	["_BackgroundTransparency129"] = Instance.new("Keyframe");
+	["_Position131"] = Instance.new("Keyframe");
+	["_keyframes_71"] = Instance.new("Folder");
+	["_BackgroundTransparency130"] = Instance.new("Keyframe");
+	["_Position132"] = Instance.new("Keyframe");
+	["_keyframes_72"] = Instance.new("Folder");
+	["_BackgroundTransparency131"] = Instance.new("Keyframe");
+	["_Position133"] = Instance.new("Keyframe");
+	["_keyframes_73"] = Instance.new("Folder");
+	["_BackgroundTransparency132"] = Instance.new("Keyframe");
+	["_Position134"] = Instance.new("Keyframe");
+	["_keyframes_74"] = Instance.new("Folder");
+	["_BackgroundTransparency133"] = Instance.new("Keyframe");
+	["_Position135"] = Instance.new("Keyframe");
+	["_keyframes_75"] = Instance.new("Folder");
+	["_BackgroundTransparency134"] = Instance.new("Keyframe");
+	["_Position136"] = Instance.new("Keyframe");
+	["_keyframes_76"] = Instance.new("Folder");
+	["_BackgroundTransparency135"] = Instance.new("Keyframe");
+	["_Position137"] = Instance.new("Keyframe");
+	["_keyframes_77"] = Instance.new("Folder");
+	["_BackgroundTransparency136"] = Instance.new("Keyframe");
+	["_Position138"] = Instance.new("Keyframe");
+	["_keyframes_78"] = Instance.new("Folder");
+	["_BackgroundTransparency137"] = Instance.new("Keyframe");
+	["_Position139"] = Instance.new("Keyframe");
+	["_RoUI3"] = Instance.new("ModuleScript");
+	["_UIClosed"] = Instance.new("LocalScript");
+}
+
+-- Properties:
+
+Converted["_FrostWare"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_FrostWare"].Name = "FrostWare"
+Converted["_FrostWare"].Parent = game:GetService("CoreGui")
+
+Converted["_Main"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main"].BackgroundTransparency = 0.30000001192092896
+Converted["_Main"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main"].BorderSizePixel = 0
+Converted["_Main"].ClipsDescendants = true
+Converted["_Main"].Position = UDim2.new(0.109130904, 0, 0.142254889, 0)
+Converted["_Main"].Size = UDim2.new(0, 492, 0, 295)
+Converted["_Main"].ZIndex = 2
+Converted["_Main"].Name = "Main"
+Converted["_Main"].Parent = Converted["_FrostWare"]
+
+Converted["_UICorner"].Parent = Converted["_Main"]
+
+Converted["_Side"].BackgroundColor3 = Color3.fromRGB(9.000000413507223, 16.000000946223736, 150.0000062584877)
+Converted["_Side"].BackgroundTransparency = 0.4000000059604645
+Converted["_Side"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Side"].BorderSizePixel = 0
+Converted["_Side"].Position = UDim2.new(0.00773930736, 0, 0.172789693, 0)
+Converted["_Side"].Size = UDim2.new(0, 39, 0, 236)
+Converted["_Side"].Name = "Side"
+Converted["_Side"].Parent = Converted["_Main"]
+
+Converted["_UICorner1"].Parent = Converted["_Side"]
+
+Converted["_Executor"].Image = "rbxassetid://110565107095653"
+Converted["_Executor"].ImageContent = Content
+Converted["_Executor"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Executor"].BackgroundTransparency = 1
+Converted["_Executor"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Executor"].BorderSizePixel = 0
+Converted["_Executor"].Position = UDim2.new(0.119358942, 0, 0.199423715, 0)
+Converted["_Executor"].Size = UDim2.new(0, 28, 0, 28)
+Converted["_Executor"].Name = "Executor"
+Converted["_Executor"].Parent = Converted["_Side"]
+
+Converted["_home"].Image = "rbxassetid://119897226376123"
+Converted["_home"].ImageContent = Content
+Converted["_home"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_home"].BackgroundTransparency = 1
+Converted["_home"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_home"].BorderSizePixel = 0
+Converted["_home"].Position = UDim2.new(0.122000001, 0, 0.0260000005, 0)
+Converted["_home"].Size = UDim2.new(0, 28, 0, 28)
+Converted["_home"].Name = "home"
+Converted["_home"].Parent = Converted["_Side"]
+
+Converted["_Settings"].Image = "http://www.roblox.com/asset/?id=17257771808"
+Converted["_Settings"].ImageContent = Content
+Converted["_Settings"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Settings"].BackgroundTransparency = 1
+Converted["_Settings"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Settings"].BorderSizePixel = 0
+Converted["_Settings"].Position = UDim2.new(0.121417709, 0, 0.845754206, 0)
+Converted["_Settings"].Size = UDim2.new(0, 28, 0, 28)
+Converted["_Settings"].Name = "Settings"
+Converted["_Settings"].Parent = Converted["_Side"]
+
+Converted["_Credits"].Image = "rbxassetid://138073973227244"
+Converted["_Credits"].ImageContent = Content
+Converted["_Credits"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Credits"].BackgroundTransparency = 1
+Converted["_Credits"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Credits"].BorderSizePixel = 0
+Converted["_Credits"].Position = UDim2.new(0.0953588262, 0, 0.634915233, 0)
+Converted["_Credits"].Size = UDim2.new(0, 28, 0, 28)
+Converted["_Credits"].Name = "Credits"
+Converted["_Credits"].Parent = Converted["_Side"]
+
+Converted["_ScriptSearcher"].Image = "rbxassetid://97239278789958"
+Converted["_ScriptSearcher"].ImageContent = Content
+Converted["_ScriptSearcher"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptSearcher"].BackgroundTransparency = 1
+Converted["_ScriptSearcher"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScriptSearcher"].BorderSizePixel = 0
+Converted["_ScriptSearcher"].Position = UDim2.new(-0.0841283575, 0, 0.363728791, 0)
+Converted["_ScriptSearcher"].Size = UDim2.new(0, 45, 0, 45)
+Converted["_ScriptSearcher"].Name = "ScriptSearcher"
+Converted["_ScriptSearcher"].Parent = Converted["_Side"]
+
+Converted["_Top"].BackgroundColor3 = Color3.fromRGB(9.000000413507223, 16.000000946223736, 150.0000062584877)
+Converted["_Top"].BackgroundTransparency = 0.4000000059604645
+Converted["_Top"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Top"].BorderSizePixel = 0
+Converted["_Top"].Position = UDim2.new(0.00773930736, 0, 0.0287845936, 0)
+Converted["_Top"].Size = UDim2.new(0, 478, 0, 34)
+Converted["_Top"].Name = "Top"
+Converted["_Top"].Parent = Converted["_Main"]
+
+Converted["_UICorner2"].Parent = Converted["_Top"]
+
+Converted["_TextLabel"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel"].Text = "Frostware | Android Executor"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextSize = 24
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.0726315826, 0, 0.0294117648, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 228, 0, 32)
+Converted["_TextLabel"].Parent = Converted["_Top"]
+
+Converted["_ImageLabel"].Image = "rbxassetid://114936734174789"
+Converted["_ImageLabel"].ImageContent = Content
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel"].BackgroundTransparency = 1
+Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel"].BorderSizePixel = 0
+Converted["_ImageLabel"].Position = UDim2.new(0, 0, -0.117647059, 0)
+Converted["_ImageLabel"].Size = UDim2.new(0, 44, 0, 42)
+Converted["_ImageLabel"].Parent = Converted["_Top"]
+
+Converted["_Close"].Font = Enum.Font.SourceSans
+Converted["_Close"].Text = "X"
+Converted["_Close"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Close"].TextSize = 26
+Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Close"].BackgroundTransparency = 1
+Converted["_Close"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Close"].BorderSizePixel = 0
+Converted["_Close"].Position = UDim2.new(0.922804058, 0, -0.264705896, 0)
+Converted["_Close"].Size = UDim2.new(0, 46, 0, 50)
+Converted["_Close"].Name = "Close"
+Converted["_Close"].Parent = Converted["_Top"]
+
+Converted["_UIStroke"].Thickness = 1.399999976158142
+Converted["_UIStroke"].Parent = Converted["_Main"]
+
+Converted["_Settings1"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Settings1"].BackgroundTransparency = 0.6000000238418579
+Converted["_Settings1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Settings1"].BorderSizePixel = 0
+Converted["_Settings1"].Position = UDim2.new(0.101707332, 0, 0.171977207, 0)
+Converted["_Settings1"].Size = UDim2.new(0, 433, 0, 236)
+Converted["_Settings1"].Visible = false
+Converted["_Settings1"].Name = "Settings"
+Converted["_Settings1"].Parent = Converted["_Main"]
+
+Converted["_UICorner3"].Parent = Converted["_Settings1"]
+
+Converted["_TextLabel1"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel1"].Text = "Settings coming soon!"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].TextSize = 32
+Converted["_TextLabel1"].TextWrapped = true
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].BorderSizePixel = 0
+Converted["_TextLabel1"].Position = UDim2.new(0.0640756339, 0, 0.3434937, 0)
+Converted["_TextLabel1"].Size = UDim2.new(0, 377, 0, 62)
+Converted["_TextLabel1"].Parent = Converted["_Settings1"]
+
+Converted["_Home"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Home"].BackgroundTransparency = 0.6000000238418579
+Converted["_Home"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Home"].BorderSizePixel = 0
+Converted["_Home"].Position = UDim2.new(0.103170753, 0, 0.171977416, 0)
+Converted["_Home"].Size = UDim2.new(0, 433, 0, 237)
+Converted["_Home"].Name = "Home"
+Converted["_Home"].Parent = Converted["_Main"]
+
+Converted["_UICorner4"].Parent = Converted["_Home"]
+
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(26.00000225007534, 26.00000225007534, 26.00000225007534)
+Converted["_Frame1"].BackgroundTransparency = 0.6000000238418579
+Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame1"].BorderSizePixel = 0
+Converted["_Frame1"].Position = UDim2.new(-0.000198469977, 0, -0.00264949235, 0)
+Converted["_Frame1"].Size = UDim2.new(0, 220, 0, 237)
+Converted["_Frame1"].ZIndex = 2
+Converted["_Frame1"].Name = "Frame1"
+Converted["_Frame1"].Parent = Converted["_Home"]
+
+Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke1"].Parent = Converted["_Frame1"]
+
+Converted["_TextLabel2"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel2"].Text = "Version: 1.0.0"
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].TextSize = 18
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
+Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel2"].BorderSizePixel = 0
+Converted["_TextLabel2"].Position = UDim2.new(1.50866365, 0, 0.916705787, 0)
+Converted["_TextLabel2"].Size = UDim2.new(0, 100, 0, 20)
+Converted["_TextLabel2"].Parent = Converted["_Frame1"]
+
+Converted["_Frame2"].BackgroundColor3 = Color3.fromRGB(26.00000225007534, 26.00000225007534, 26.00000225007534)
+Converted["_Frame2"].BackgroundTransparency = 0.6000000238418579
+Converted["_Frame2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame2"].BorderSizePixel = 0
+Converted["_Frame2"].Position = UDim2.new(0.509348094, 0, -0.00264949235, 0)
+Converted["_Frame2"].Size = UDim2.new(0, 212, 0, 236)
+Converted["_Frame2"].ZIndex = 2
+Converted["_Frame2"].Name = "Frame2"
+Converted["_Frame2"].Parent = Converted["_Home"]
+
+Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke2"].Parent = Converted["_Frame2"]
+
+Converted["_TextLabel3"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel3"].Text = "Features:"
+Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].TextSize = 20
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
+Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel3"].BorderSizePixel = 0
+Converted["_TextLabel3"].Position = UDim2.new(-0.0610000007, 0, -0.0649999976, 0)
+Converted["_TextLabel3"].Size = UDim2.new(0, 116, 0, 50)
+Converted["_TextLabel3"].Parent = Converted["_Frame2"]
+
+Converted["_TextLabel4"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel4"].Text = "- Executor with 99% UNC"
+Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].TextSize = 20
+Converted["_TextLabel4"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel4"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
+Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel4"].BorderSizePixel = 0
+Converted["_TextLabel4"].Position = UDim2.new(0.0199999548, 0, 0.132000029, 0)
+Converted["_TextLabel4"].Size = UDim2.new(0, 208, 0, 28)
+Converted["_TextLabel4"].Parent = Converted["_Frame2"]
+
+Converted["_TextLabel5"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel5"].Text = "- User friendly interface"
+Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].TextSize = 20
+Converted["_TextLabel5"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel5"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
+Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel5"].BorderSizePixel = 0
+Converted["_TextLabel5"].Position = UDim2.new(0.0199999548, 0, 0.280305117, 0)
+Converted["_TextLabel5"].Size = UDim2.new(0, 208, 0, 28)
+Converted["_TextLabel5"].Parent = Converted["_Frame2"]
+
+Converted["_TextLabel6"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel6"].Text = "- Keyless"
+Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel6"].TextSize = 20
+Converted["_TextLabel6"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel6"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel6"].BackgroundTransparency = 1
+Converted["_TextLabel6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel6"].BorderSizePixel = 0
+Converted["_TextLabel6"].Position = UDim2.new(0.0199999548, 0, 0.437084794, 0)
+Converted["_TextLabel6"].Size = UDim2.new(0, 208, 0, 28)
+Converted["_TextLabel6"].Parent = Converted["_Frame2"]
+
+Converted["_BasicInfo"].BackgroundColor3 = Color3.fromRGB(6.0000005923211575, 6.0000005923211575, 14.000001065433025)
+Converted["_BasicInfo"].BackgroundTransparency = 1
+Converted["_BasicInfo"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_BasicInfo"].Position = UDim2.new(0.13648729, 0, 1.33134651, 0)
+Converted["_BasicInfo"].Size = UDim2.new(0, 194, 0, 276)
+Converted["_BasicInfo"].ZIndex = 5
+Converted["_BasicInfo"].Name = "BasicInfo"
+Converted["_BasicInfo"].Parent = Converted["_Home"]
+
+Converted["_FPS"].Font = Enum.Font.FredokaOne
+Converted["_FPS"].Text = "FPS"
+Converted["_FPS"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FPS"].TextSize = 20
+Converted["_FPS"].BackgroundColor3 = Color3.fromRGB(5.000000176951289, 5.000000176951289, 12.000001184642315)
+Converted["_FPS"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FPS"].Position = UDim2.new(0.851000011, 0, -0.460000008, 0)
+Converted["_FPS"].Size = UDim2.new(0, 99, 0, 34)
+Converted["_FPS"].Name = "FPS"
+Converted["_FPS"].Parent = Converted["_BasicInfo"]
+
+Converted["_FPSText"].Font = Enum.Font.FredokaOne
+Converted["_FPSText"].Text = "FPS:"
+Converted["_FPSText"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FPSText"].TextSize = 17
+Converted["_FPSText"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_FPSText"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_FPSText"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FPSText"].BackgroundTransparency = 1
+Converted["_FPSText"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FPSText"].BorderSizePixel = 0
+Converted["_FPSText"].Position = UDim2.new(0.849587679, 0, -0.601449251, 0)
+Converted["_FPSText"].Size = UDim2.new(0, 41, 0, 16)
+Converted["_FPSText"].ZIndex = 9
+Converted["_FPSText"].Name = "FPSText"
+Converted["_FPSText"].Parent = Converted["_BasicInfo"]
+
+Converted["_Subscription"].Font = Enum.Font.FredokaOne
+Converted["_Subscription"].Text = "UserSub"
+Converted["_Subscription"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subscription"].TextSize = 20
+Converted["_Subscription"].TextWrapped = true
+Converted["_Subscription"].BackgroundColor3 = Color3.fromRGB(5.000000176951289, 5.000000176951289, 12.000001184642315)
+Converted["_Subscription"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subscription"].Position = UDim2.new(-0.0365773626, 0, -0.419710129, 0)
+Converted["_Subscription"].Size = UDim2.new(0, 114, 0, 31)
+Converted["_Subscription"].Name = "Subscription"
+Converted["_Subscription"].Parent = Converted["_BasicInfo"]
+
+Converted["_SubscriptionText"].Font = Enum.Font.FredokaOne
+Converted["_SubscriptionText"].Text = "Subscription:"
+Converted["_SubscriptionText"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_SubscriptionText"].TextSize = 20
+Converted["_SubscriptionText"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_SubscriptionText"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_SubscriptionText"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_SubscriptionText"].BackgroundTransparency = 1
+Converted["_SubscriptionText"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SubscriptionText"].BorderSizePixel = 0
+Converted["_SubscriptionText"].Position = UDim2.new(-0.295154691, 0, -0.525942385, 0)
+Converted["_SubscriptionText"].Size = UDim2.new(0, 99, 0, 18)
+Converted["_SubscriptionText"].ZIndex = 9
+Converted["_SubscriptionText"].Name = "SubscriptionText"
+Converted["_SubscriptionText"].Parent = Converted["_BasicInfo"]
+
+Converted["_RankText"].Font = Enum.Font.FredokaOne
+Converted["_RankText"].Text = "Rank:"
+Converted["_RankText"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_RankText"].TextSize = 20
+Converted["_RankText"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_RankText"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_RankText"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_RankText"].BackgroundTransparency = 1
+Converted["_RankText"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_RankText"].BorderSizePixel = 0
+Converted["_RankText"].Position = UDim2.new(-0.299896866, 0, -0.753623188, 0)
+Converted["_RankText"].Size = UDim2.new(0, 45, 0, 17)
+Converted["_RankText"].ZIndex = 9
+Converted["_RankText"].Name = "RankText"
+Converted["_RankText"].Parent = Converted["_BasicInfo"]
+
+Converted["_Rank"].Font = Enum.Font.FredokaOne
+Converted["_Rank"].Text = "UserRank"
+Converted["_Rank"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Rank"].TextSize = 20
+Converted["_Rank"].BackgroundColor3 = Color3.fromRGB(5.000000176951289, 5.000000176951289, 12.000001184642315)
+Converted["_Rank"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Rank"].Position = UDim2.new(-0.0325773582, 0, -0.670681477, 0)
+Converted["_Rank"].Size = UDim2.new(0, 112, 0, 31)
+Converted["_Rank"].Name = "Rank"
+Converted["_Rank"].Parent = Converted["_BasicInfo"]
+
+Converted["_user"].BackgroundColor3 = Color3.fromRGB(6.000000117346644, 6.000000117346644, 6.000000117346644)
+Converted["_user"].BackgroundTransparency = 1
+Converted["_user"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_user"].BorderSizePixel = 0
+Converted["_user"].Position = UDim2.new(0.00424708845, 0, -0.00264949235, 0)
+Converted["_user"].Size = UDim2.new(0, 218, 0, 94)
+Converted["_user"].ZIndex = 2
+Converted["_user"].Name = "user"
+Converted["_user"].Parent = Converted["_Home"]
+
+Converted["_UICorner5"].CornerRadius = UDim.new(0, 15)
+Converted["_UICorner5"].Parent = Converted["_user"]
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BackgroundTransparency = 1
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].ClipsDescendants = true
+Converted["_Frame"].Position = UDim2.new(0.061999999, 0, 0.074000001, 0)
+Converted["_Frame"].Size = UDim2.new(0, 70, 0, 70)
+Converted["_Frame"].Parent = Converted["_user"]
+
+Converted["_UICorner6"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner6"].Parent = Converted["_Frame"]
+
+Converted["_UIStroke3"].Color = Color3.fromRGB(21.000000648200512, 0, 255)
+Converted["_UIStroke3"].Thickness = 2
+Converted["_UIStroke3"].Parent = Converted["_Frame"]
+
+Converted["_User"].Image = "rbxassetid://18747017080"
+Converted["_User"].ImageContent = Content
+Converted["_User"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_User"].BackgroundTransparency = 1
+Converted["_User"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_User"].BorderSizePixel = 0
+Converted["_User"].Position = UDim2.new(-0.0350000001, 0, -0.200000003, 0)
+Converted["_User"].Size = UDim2.new(0, 74, 0, 74)
+Converted["_User"].ZIndex = 2
+Converted["_User"].Name = "User"
+Converted["_User"].Parent = Converted["_Frame"]
+
+Converted["_UICorner7"].Parent = Converted["_User"]
+
+Converted["_UserText"].Font = Enum.Font.Gotham
+Converted["_UserText"].RichText = true
+Converted["_UserText"].Text = "Welcome, User"
+Converted["_UserText"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_UserText"].TextSize = 23
+Converted["_UserText"].TextWrapped = true
+Converted["_UserText"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_UserText"].BackgroundTransparency = 1
+Converted["_UserText"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_UserText"].BorderSizePixel = 0
+Converted["_UserText"].Position = UDim2.new(0.408697695, 0, 0.276186347, 0)
+Converted["_UserText"].Size = UDim2.new(0, 129, 0, 37)
+Converted["_UserText"].ZIndex = 3
+Converted["_UserText"].Name = "UserText"
+Converted["_UserText"].Parent = Converted["_user"]
+
+Converted["_Extend"].Font = Enum.Font.SourceSans
+Converted["_Extend"].Text = ">"
+Converted["_Extend"].TextColor3 = Color3.fromRGB(170.0000050663948, 170.0000050663948, 170.0000050663948)
+Converted["_Extend"].TextScaled = true
+Converted["_Extend"].TextSize = 14
+Converted["_Extend"].TextWrapped = true
+Converted["_Extend"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Extend"].BackgroundTransparency = 1
+Converted["_Extend"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Extend"].BorderSizePixel = 0
+Converted["_Extend"].Position = UDim2.new(0.900692821, 0, 0.540084362, 0)
+Converted["_Extend"].Size = UDim2.new(0, 54, 0, 50)
+Converted["_Extend"].ZIndex = 5
+Converted["_Extend"].Name = "Extend"
+Converted["_Extend"].Parent = Converted["_Home"]
+
+Converted["_UIStroke4"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke4"].Parent = Converted["_Extend"]
+
+Converted["_Credits2"].BackgroundColor3 = Color3.fromRGB(1.0000000591389835, 57.00000420212746, 83.00000265240669)
+Converted["_Credits2"].BackgroundTransparency = 0.30000001192092896
+Converted["_Credits2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Credits2"].BorderSizePixel = 0
+Converted["_Credits2"].Position = UDim2.new(-7.20370388, 0, -2.55999994, 0)
+Converted["_Credits2"].Size = UDim2.new(0, 432, 0, 236)
+Converted["_Credits2"].Visible = false
+Converted["_Credits2"].Name = "Credits2"
+Converted["_Credits2"].Parent = Converted["_Extend"]
+
+Converted["_UICorner8"].CornerRadius = UDim.new(0, 4)
+Converted["_UICorner8"].Parent = Converted["_Credits2"]
+
+Converted["_UIStroke5"].Color = Color3.fromRGB(0, 0, 255)
+Converted["_UIStroke5"].Thickness = 4
+Converted["_UIStroke5"].Parent = Converted["_Credits2"]
+
+Converted["_Close1"].Font = Enum.Font.SourceSans
+Converted["_Close1"].Text = "X"
+Converted["_Close1"].TextColor3 = Color3.fromRGB(5.000000176951289, 80.00000283122063, 255)
+Converted["_Close1"].TextSize = 27
+Converted["_Close1"].TextWrapped = true
+Converted["_Close1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Close1"].BackgroundTransparency = 1
+Converted["_Close1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Close1"].BorderSizePixel = 0
+Converted["_Close1"].Position = UDim2.new(0.894943774, 0, -0.0423728824, 0)
+Converted["_Close1"].Size = UDim2.new(0, 56, 0, 50)
+Converted["_Close1"].Name = "Close"
+Converted["_Close1"].Parent = Converted["_Credits2"]
+
+Converted["_UIStroke6"].Color = Color3.fromRGB(1.0000000591389835, 230.00001668930054, 255)
+Converted["_UIStroke6"].Thickness = 1.5
+Converted["_UIStroke6"].Parent = Converted["_Close1"]
+
+Converted["_ImageLabel1"].Image = "rbxassetid://136986516762844"
+Converted["_ImageLabel1"].ImageContent = Content
+Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(44.000001177191734, 44.000001177191734, 44.000001177191734)
+Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel1"].BorderSizePixel = 0
+Converted["_ImageLabel1"].Position = UDim2.new(0.0256049894, 0, 0.0784753039, 0)
+Converted["_ImageLabel1"].Size = UDim2.new(0, 50, 0, 50)
+Converted["_ImageLabel1"].Parent = Converted["_Credits2"]
+
+Converted["_UIStroke7"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke7"].Parent = Converted["_ImageLabel1"]
+
+Converted["_TextLabel7"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel7"].Text = "Jake Brock (Jakey) "
+Converted["_TextLabel7"].TextColor3 = Color3.fromRGB(0, 255, 255)
+Converted["_TextLabel7"].TextSize = 29
+Converted["_TextLabel7"].TextWrapped = true
+Converted["_TextLabel7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel7"].BackgroundTransparency = 1
+Converted["_TextLabel7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel7"].BorderSizePixel = 0
+Converted["_TextLabel7"].Position = UDim2.new(0.0481164716, 0, 0.0232390072, 0)
+Converted["_TextLabel7"].Size = UDim2.new(0, 340, 0, 32)
+Converted["_TextLabel7"].Parent = Converted["_Credits2"]
+
+Converted["_UICorner9"].Parent = Converted["_TextLabel7"]
+
+Converted["_TextLabel8"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel8"].Text = "CEO,Founder of Frostware"
+Converted["_TextLabel8"].TextColor3 = Color3.fromRGB(0, 255, 255)
+Converted["_TextLabel8"].TextSize = 20
+Converted["_TextLabel8"].TextWrapped = true
+Converted["_TextLabel8"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel8"].BackgroundTransparency = 1
+Converted["_TextLabel8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel8"].BorderSizePixel = 0
+Converted["_TextLabel8"].Position = UDim2.new(0.0248881448, 0, 0.179446459, 0)
+Converted["_TextLabel8"].Size = UDim2.new(0, 340, 0, 32)
+Converted["_TextLabel8"].Parent = Converted["_Credits2"]
+
+Converted["_UICorner10"].Parent = Converted["_TextLabel8"]
+
+Converted["_Executor1"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Executor1"].BackgroundTransparency = 0.6000000238418579
+Converted["_Executor1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Executor1"].BorderSizePixel = 0
+Converted["_Executor1"].Position = UDim2.new(0.101626016, 0, 0.179661021, 0)
+Converted["_Executor1"].Size = UDim2.new(0, 433, 0, 233)
+Converted["_Executor1"].Visible = false
+Converted["_Executor1"].Name = "Executor"
+Converted["_Executor1"].Parent = Converted["_Main"]
+
+Converted["_UICorner11"].Parent = Converted["_Executor1"]
+
+Converted["_Code"].Font = Enum.Font.SourceSans
+Converted["_Code"].PlaceholderColor3 = Color3.fromRGB(88.00000235438347, 88.00000235438347, 88.00000235438347)
+Converted["_Code"].PlaceholderText = "Print("FrostWare on top")"
+Converted["_Code"].Text = ""
+Converted["_Code"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Code"].TextSize = 14
+Converted["_Code"].TextWrapped = true
+Converted["_Code"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Code"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Code"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Code"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Code"].BorderSizePixel = 0
+Converted["_Code"].Position = UDim2.new(0.014309573, 0, 0.0276296716, 0)
+Converted["_Code"].Size = UDim2.new(0, 419, 0, 183)
+Converted["_Code"].Name = "Code"
+Converted["_Code"].Parent = Converted["_Executor1"]
+
+Converted["_Clear"].Font = Enum.Font.SourceSans
+Converted["_Clear"].Text = "Clear"
+Converted["_Clear"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Clear"].TextSize = 17
+Converted["_Clear"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Clear"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Clear"].BorderSizePixel = 0
+Converted["_Clear"].Position = UDim2.new(-0.000808023906, 0, 1.02905297, 0)
+Converted["_Clear"].Size = UDim2.new(0, 106, 0, 34)
+Converted["_Clear"].Name = "Clear"
+Converted["_Clear"].Parent = Converted["_Code"]
+
+Converted["_UICorner12"].Parent = Converted["_Clear"]
+
+Converted["_Execute"].Font = Enum.Font.SourceSans
+Converted["_Execute"].Text = "Execute"
+Converted["_Execute"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Execute"].TextSize = 17
+Converted["_Execute"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Execute"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Execute"].BorderSizePixel = 0
+Converted["_Execute"].Position = UDim2.new(0.74625659, 0, 1.02507329, 0)
+Converted["_Execute"].Size = UDim2.new(0, 106, 0, 34)
+Converted["_Execute"].Name = "Execute"
+Converted["_Execute"].Parent = Converted["_Code"]
+
+Converted["_UICorner13"].Parent = Converted["_Execute"]
+
+Converted["_UICorner14"].Parent = Converted["_Code"]
+
+Converted["_Paste"].Font = Enum.Font.SourceSans
+Converted["_Paste"].Text = "Paste"
+Converted["_Paste"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Paste"].TextSize = 17
+Converted["_Paste"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Paste"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Paste"].BorderSizePixel = 0
+Converted["_Paste"].Position = UDim2.new(0.476221502, 0, 1.02507329, 0)
+Converted["_Paste"].Size = UDim2.new(0, 106, 0, 34)
+Converted["_Paste"].Name = "Paste"
+Converted["_Paste"].Parent = Converted["_Code"]
+
+Converted["_UICorner15"].Parent = Converted["_Paste"]
+
+Converted["_Credits1"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Credits1"].BackgroundTransparency = 0.6000000238418579
+Converted["_Credits1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Credits1"].BorderSizePixel = 0
+Converted["_Credits1"].Position = UDim2.new(0.101138234, 0, 0.171977416, 0)
+Converted["_Credits1"].Size = UDim2.new(0, 433, 0, 237)
+Converted["_Credits1"].Visible = false
+Converted["_Credits1"].Name = "Credits"
+Converted["_Credits1"].Parent = Converted["_Main"]
+
+Converted["_UICorner16"].Parent = Converted["_Credits1"]
+
+Converted["_TextLabel9"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel9"].Text = "Developers:"
+Converted["_TextLabel9"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel9"].TextSize = 23
+Converted["_TextLabel9"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel9"].BackgroundTransparency = 1
+Converted["_TextLabel9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel9"].BorderSizePixel = 0
+Converted["_TextLabel9"].Position = UDim2.new(-0.0282523707, 0, -0.0421940945, 0)
+Converted["_TextLabel9"].Size = UDim2.new(0, 150, 0, 50)
+Converted["_TextLabel9"].Parent = Converted["_Credits1"]
+
+Converted["_ImageLabel2"].Image = "rbxassetid://18460454647"
+Converted["_ImageLabel2"].ImageContent = Content
+Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel2"].BorderSizePixel = 0
+Converted["_ImageLabel2"].Position = UDim2.new(0.0209753737, 0, 0.18140395, 0)
+Converted["_ImageLabel2"].Size = UDim2.new(0, 50, 0, 50)
+Converted["_ImageLabel2"].Parent = Converted["_Credits1"]
+
+Converted["_UIStroke8"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke8"].Parent = Converted["_ImageLabel2"]
+
+Converted["_ImageLabel3"].Image = "rbxassetid://96831260390082"
+Converted["_ImageLabel3"].ImageContent = Content
+Converted["_ImageLabel3"].BackgroundColor3 = Color3.fromRGB(44.000001177191734, 44.000001177191734, 44.000001177191734)
+Converted["_ImageLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel3"].BorderSizePixel = 0
+Converted["_ImageLabel3"].Position = UDim2.new(0.0209753737, 0, 0.47254318, 0)
+Converted["_ImageLabel3"].Size = UDim2.new(0, 50, 0, 50)
+Converted["_ImageLabel3"].Parent = Converted["_Credits1"]
+
+Converted["_UIStroke9"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke9"].Parent = Converted["_ImageLabel3"]
+
+Converted["_TextLabel10"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel10"].Text = "Designed,Scripted by I4KC"
+Converted["_TextLabel10"].TextColor3 = Color3.fromRGB(0, 255, 255)
+Converted["_TextLabel10"].TextSize = 29
+Converted["_TextLabel10"].TextWrapped = true
+Converted["_TextLabel10"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel10"].BackgroundTransparency = 1
+Converted["_TextLabel10"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel10"].BorderSizePixel = 0
+Converted["_TextLabel10"].Position = UDim2.new(0.0920979604, 0, 0.141883045, 0)
+Converted["_TextLabel10"].Size = UDim2.new(0, 340, 0, 32)
+Converted["_TextLabel10"].Parent = Converted["_Credits1"]
+
+Converted["_UICorner17"].Parent = Converted["_TextLabel10"]
+
+Converted["_TextLabel11"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel11"].Text = "W Dev"
+Converted["_TextLabel11"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel11"].TextSize = 71
+Converted["_TextLabel11"].TextTransparency = 0.9900000095367432
+Converted["_TextLabel11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel11"].BackgroundTransparency = 1
+Converted["_TextLabel11"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel11"].BorderSizePixel = 0
+Converted["_TextLabel11"].Position = UDim2.new(0.31639722, 0, 0.434599161, 0)
+Converted["_TextLabel11"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_TextLabel11"].Parent = Converted["_Credits1"]
+
+Converted["_TextLabel12"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel12"].Text = "Designed,Scripted by Diet Coke"
+Converted["_TextLabel12"].TextColor3 = Color3.fromRGB(3.0000002961605787, 7.000000532716513, 255)
+Converted["_TextLabel12"].TextSize = 29
+Converted["_TextLabel12"].TextWrapped = true
+Converted["_TextLabel12"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel12"].BackgroundTransparency = 1
+Converted["_TextLabel12"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel12"].BorderSizePixel = 0
+Converted["_TextLabel12"].Position = UDim2.new(0.0597653985, 0, 0.437241703, 0)
+Converted["_TextLabel12"].Size = UDim2.new(0, 421, 0, 32)
+Converted["_TextLabel12"].ZIndex = 2
+Converted["_TextLabel12"].Parent = Converted["_Credits1"]
+
+Converted["_UICorner18"].Parent = Converted["_TextLabel12"]
+
+Converted["_TextLabel13"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel13"].Text = "Main Developer: Diet Coke"
+Converted["_TextLabel13"].TextColor3 = Color3.fromRGB(3.0000002961605787, 7.000000532716513, 255)
+Converted["_TextLabel13"].TextSize = 20
+Converted["_TextLabel13"].TextWrapped = true
+Converted["_TextLabel13"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel13"].BackgroundTransparency = 1
+Converted["_TextLabel13"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel13"].BorderSizePixel = 0
+Converted["_TextLabel13"].Position = UDim2.new(0.110315762, 0, 0.58070159, 0)
+Converted["_TextLabel13"].Size = UDim2.new(0, 242, 0, 32)
+Converted["_TextLabel13"].ZIndex = 2
+Converted["_TextLabel13"].Parent = Converted["_Credits1"]
+
+Converted["_UICorner19"].Parent = Converted["_TextLabel13"]
+
+Converted["_TextLabel14"].Font = Enum.Font.SourceSansBold
+Converted["_TextLabel14"].Text = "Main Designer (UI,animations,Icons): I4KC"
+Converted["_TextLabel14"].TextColor3 = Color3.fromRGB(0, 255, 255)
+Converted["_TextLabel14"].TextSize = 20
+Converted["_TextLabel14"].TextWrapped = true
+Converted["_TextLabel14"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel14"].BackgroundTransparency = 1
+Converted["_TextLabel14"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel14"].BorderSizePixel = 0
+Converted["_TextLabel14"].Position = UDim2.new(0.126739994, 0, 0.276904136, 0)
+Converted["_TextLabel14"].Size = UDim2.new(0, 340, 0, 32)
+Converted["_TextLabel14"].Parent = Converted["_Credits1"]
+
+Converted["_UICorner20"].Parent = Converted["_TextLabel14"]
+
+Converted["_ScriptSearcher1"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScriptSearcher1"].BackgroundTransparency = 0.6000000238418579
+Converted["_ScriptSearcher1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScriptSearcher1"].BorderSizePixel = 0
+Converted["_ScriptSearcher1"].Position = UDim2.new(0.103170753, 0, 0.167767644, 0)
+Converted["_ScriptSearcher1"].Size = UDim2.new(0, 433, 0, 238)
+Converted["_ScriptSearcher1"].Visible = false
+Converted["_ScriptSearcher1"].Name = "ScriptSearcher"
+Converted["_ScriptSearcher1"].Parent = Converted["_Main"]
+
+Converted["_UICorner21"].Parent = Converted["_ScriptSearcher1"]
+
+Converted["_Text"].ClearTextOnFocus = false
+Converted["_Text"].CursorPosition = -1
+Converted["_Text"].Font = Enum.Font.SourceSans
+Converted["_Text"].MultiLine = true
+Converted["_Text"].PlaceholderText = "Search for a script...."
+Converted["_Text"].Text = ""
+Converted["_Text"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Text"].TextSize = 14
+Converted["_Text"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Text"].BorderSizePixel = 0
+Converted["_Text"].Position = UDim2.new(0.0277136266, 0, 0.0548523217, 0)
+Converted["_Text"].Size = UDim2.new(0, 333, 0, 35)
+Converted["_Text"].Name = "Text"
+Converted["_Text"].Parent = Converted["_ScriptSearcher1"]
+
+Converted["_UICorner22"].Parent = Converted["_Text"]
+
+Converted["_UIStroke10"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke10"].Color = Color3.fromRGB(38.0000015348196, 38.0000015348196, 38.0000015348196)
+Converted["_UIStroke10"].Parent = Converted["_Text"]
+
+Converted["_Search"].Image = "rbxassetid://123477244640040"
+Converted["_Search"].ImageContent = Content
+Converted["_Search"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Search"].BackgroundTransparency = 1
+Converted["_Search"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Search"].BorderSizePixel = 0
+Converted["_Search"].Position = UDim2.new(0.906000018, 0, 0.171000004, 0)
+Converted["_Search"].Size = UDim2.new(0, 23, 0, 23)
+Converted["_Search"].Name = "Search"
+Converted["_Search"].Parent = Converted["_Text"]
+
+Converted["_Clear1"].Font = Enum.Font.FredokaOne
+Converted["_Clear1"].Text = "Clear"
+Converted["_Clear1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Clear1"].TextSize = 20
+Converted["_Clear1"].BackgroundColor3 = Color3.fromRGB(25.000000409781933, 25.000000409781933, 25.000000409781933)
+Converted["_Clear1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Clear1"].BorderSizePixel = 0
+Converted["_Clear1"].Position = UDim2.new(0.810623586, 0, 0.0548523217, 0)
+Converted["_Clear1"].Size = UDim2.new(0, 74, 0, 35)
+Converted["_Clear1"].Name = "Clear"
+Converted["_Clear1"].Parent = Converted["_ScriptSearcher1"]
+
+Converted["_UICorner23"].Parent = Converted["_Clear1"]
+
+Converted["_Results-Scroll"].CanvasSize = UDim2.new(0, 0, 50, 0)
+Converted["_Results-Scroll"].ScrollBarImageColor3 = Color3.fromRGB(95.00000193715096, 95.00000193715096, 95.00000193715096)
+Converted["_Results-Scroll"].Active = true
+Converted["_Results-Scroll"].BackgroundColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Results-Scroll"].BackgroundTransparency = 1
+Converted["_Results-Scroll"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Results-Scroll"].BorderSizePixel = 0
+Converted["_Results-Scroll"].Position = UDim2.new(0.0277136266, 0, 0.241964906, 0)
+Converted["_Results-Scroll"].Size = UDim2.new(0, 413, 0, 178)
+Converted["_Results-Scroll"].ZIndex = 2
+Converted["_Results-Scroll"].Name = "Results-Scroll"
+Converted["_Results-Scroll"].Parent = Converted["_ScriptSearcher1"]
+
+Converted["_UIGridLayout"].CellPadding = UDim2.new(0, 30, 0, 10)
+Converted["_UIGridLayout"].CellSize = UDim2.new(0, 179, 0, 115)
+Converted["_UIGridLayout"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout"].Parent = Converted["_Results-Scroll"]
+
+Converted["_UIPadding"].PaddingLeft = UDim.new(0, 10)
+Converted["_UIPadding"].PaddingTop = UDim.new(0, 5)
+Converted["_UIPadding"].Parent = Converted["_Results-Scroll"]
+
+Converted["_Main1"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main1"].BackgroundTransparency = 1
+Converted["_Main1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main1"].BorderSizePixel = 0
+Converted["_Main1"].Position = UDim2.new(-0.000625114131, 0, -0.000118035787, 0)
+Converted["_Main1"].Size = UDim2.new(0, 492, 0, 295)
+Converted["_Main1"].ZIndex = 9
+Converted["_Main1"].Name = "Main"
+Converted["_Main1"].Parent = Converted["_Main"]
+
+Converted["_UICorner24"].Parent = Converted["_Main1"]
+
+Converted["_UIStroke11"].Thickness = 1.399999976158142
+Converted["_UIStroke11"].Parent = Converted["_Main1"]
+
+Converted["_Open Button"].Image = "rbxassetid://81050269683697"
+Converted["_Open Button"].ImageContent = Content
+Converted["_Open Button"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Open Button"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Open Button"].BorderSizePixel = 0
+Converted["_Open Button"].Position = UDim2.new(0.477755308, 0, 0.0702135265, 0)
+Converted["_Open Button"].Size = UDim2.new(0, 70, 0, 71)
+Converted["_Open Button"].Name = "Open Button"
+Converted["_Open Button"].Parent = Converted["_FrostWare"]
+
+Converted["_UICorner25"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner25"].Parent = Converted["_Open Button"]
+
+Converted["_RoUI3 Exports"].Name = "RoUI3 Exports"
+Converted["_RoUI3 Exports"].Parent = Converted["_FrostWare"]
+
+Converted["_Main2"].Name = "Main"
+Converted["_Main2"].Parent = Converted["_RoUI3 Exports"]
+
+Converted["_keyframes_0"].Name = "keyframes_0"
+Converted["_keyframes_0"].Parent = Converted["_Main2"]
+
+Converted["_Size"].Name = "Size"
+Converted["_Size"].Parent = Converted["_keyframes_0"]
+
+Converted["_BackgroundTransparency"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency"].Parent = Converted["_keyframes_0"]
+
+Converted["_Position"].Name = "Position"
+Converted["_Position"].Parent = Converted["_keyframes_0"]
+
+Converted["_keyframes_1"].Name = "keyframes_1"
+Converted["_keyframes_1"].Parent = Converted["_Main2"]
+
+Converted["_Size1"].Time = 0.019999999552965164
+Converted["_Size1"].Name = "Size"
+Converted["_Size1"].Parent = Converted["_keyframes_1"]
+
+Converted["_BackgroundTransparency1"].Time = 0.019999999552965164
+Converted["_BackgroundTransparency1"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency1"].Parent = Converted["_keyframes_1"]
+
+Converted["_Position1"].Time = 0.019999999552965164
+Converted["_Position1"].Name = "Position"
+Converted["_Position1"].Parent = Converted["_keyframes_1"]
+
+Converted["_keyframes_2"].Name = "keyframes_2"
+Converted["_keyframes_2"].Parent = Converted["_Main2"]
+
+Converted["_Size2"].Time = 0.03999999910593033
+Converted["_Size2"].Name = "Size"
+Converted["_Size2"].Parent = Converted["_keyframes_2"]
+
+Converted["_BackgroundTransparency2"].Time = 0.03999999910593033
+Converted["_BackgroundTransparency2"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency2"].Parent = Converted["_keyframes_2"]
+
+Converted["_Position2"].Time = 0.03999999910593033
+Converted["_Position2"].Name = "Position"
+Converted["_Position2"].Parent = Converted["_keyframes_2"]
+
+Converted["_keyframes_3"].Name = "keyframes_3"
+Converted["_keyframes_3"].Parent = Converted["_Main2"]
+
+Converted["_Size3"].Time = 0.05000000074505806
+Converted["_Size3"].Name = "Size"
+Converted["_Size3"].Parent = Converted["_keyframes_3"]
+
+Converted["_BackgroundTransparency3"].Time = 0.05999999865889549
+Converted["_BackgroundTransparency3"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency3"].Parent = Converted["_keyframes_3"]
+
+Converted["_Position3"].Time = 0.05000000074505806
+Converted["_Position3"].Name = "Position"
+Converted["_Position3"].Parent = Converted["_keyframes_3"]
+
+Converted["_keyframes_4"].Name = "keyframes_4"
+Converted["_keyframes_4"].Parent = Converted["_Main2"]
+
+Converted["_Size4"].Time = 0.05999999865889549
+Converted["_Size4"].Name = "Size"
+Converted["_Size4"].Parent = Converted["_keyframes_4"]
+
+Converted["_BackgroundTransparency4"].Time = 0.07999999821186066
+Converted["_BackgroundTransparency4"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency4"].Parent = Converted["_keyframes_4"]
+
+Converted["_Position4"].Time = 0.05999999865889549
+Converted["_Position4"].Name = "Position"
+Converted["_Position4"].Parent = Converted["_keyframes_4"]
+
+Converted["_keyframes_5"].Name = "keyframes_5"
+Converted["_keyframes_5"].Parent = Converted["_Main2"]
+
+Converted["_Size5"].Time = 0.07999999821186066
+Converted["_Size5"].Name = "Size"
+Converted["_Size5"].Parent = Converted["_keyframes_5"]
+
+Converted["_BackgroundTransparency5"].Time = 0.10000000149011612
+Converted["_BackgroundTransparency5"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency5"].Parent = Converted["_keyframes_5"]
+
+Converted["_Position5"].Time = 0.07999999821186066
+Converted["_Position5"].Name = "Position"
+Converted["_Position5"].Parent = Converted["_keyframes_5"]
+
+Converted["_keyframes_6"].Name = "keyframes_6"
+Converted["_keyframes_6"].Parent = Converted["_Main2"]
+
+Converted["_Size6"].Time = 0.10000000149011612
+Converted["_Size6"].Name = "Size"
+Converted["_Size6"].Parent = Converted["_keyframes_6"]
+
+Converted["_BackgroundTransparency6"].Time = 0.12999999523162842
+Converted["_BackgroundTransparency6"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency6"].Parent = Converted["_keyframes_6"]
+
+Converted["_Position6"].Time = 0.10000000149011612
+Converted["_Position6"].Name = "Position"
+Converted["_Position6"].Parent = Converted["_keyframes_6"]
+
+Converted["_keyframes_7"].Name = "keyframes_7"
+Converted["_keyframes_7"].Parent = Converted["_Main2"]
+
+Converted["_Size7"].Time = 0.12999999523162842
+Converted["_Size7"].Name = "Size"
+Converted["_Size7"].Parent = Converted["_keyframes_7"]
+
+Converted["_BackgroundTransparency7"].Time = 0.1599999964237213
+Converted["_BackgroundTransparency7"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency7"].Parent = Converted["_keyframes_7"]
+
+Converted["_Position7"].Time = 0.12999999523162842
+Converted["_Position7"].Name = "Position"
+Converted["_Position7"].Parent = Converted["_keyframes_7"]
+
+Converted["_keyframes_8"].Name = "keyframes_8"
+Converted["_keyframes_8"].Parent = Converted["_Main2"]
+
+Converted["_Size8"].Time = 0.1599999964237213
+Converted["_Size8"].Name = "Size"
+Converted["_Size8"].Parent = Converted["_keyframes_8"]
+
+Converted["_BackgroundTransparency8"].Time = 0.1899999976158142
+Converted["_BackgroundTransparency8"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency8"].Parent = Converted["_keyframes_8"]
+
+Converted["_Position8"].Time = 0.1599999964237213
+Converted["_Position8"].Name = "Position"
+Converted["_Position8"].Parent = Converted["_keyframes_8"]
+
+Converted["_keyframes_9"].Name = "keyframes_9"
+Converted["_keyframes_9"].Parent = Converted["_Main2"]
+
+Converted["_Size9"].Time = 0.1899999976158142
+Converted["_Size9"].Name = "Size"
+Converted["_Size9"].Parent = Converted["_keyframes_9"]
+
+Converted["_BackgroundTransparency9"].Time = 0.20999999344348907
+Converted["_BackgroundTransparency9"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency9"].Parent = Converted["_keyframes_9"]
+
+Converted["_Position9"].Time = 0.1899999976158142
+Converted["_Position9"].Name = "Position"
+Converted["_Position9"].Parent = Converted["_keyframes_9"]
+
+Converted["_keyframes_10"].Name = "keyframes_10"
+Converted["_keyframes_10"].Parent = Converted["_Main2"]
+
+Converted["_Size10"].Time = 0.20999999344348907
+Converted["_Size10"].Name = "Size"
+Converted["_Size10"].Parent = Converted["_keyframes_10"]
+
+Converted["_BackgroundTransparency10"].Time = 0.23999999463558197
+Converted["_BackgroundTransparency10"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency10"].Parent = Converted["_keyframes_10"]
+
+Converted["_Position10"].Time = 0.20999999344348907
+Converted["_Position10"].Name = "Position"
+Converted["_Position10"].Parent = Converted["_keyframes_10"]
+
+Converted["_keyframes_11"].Name = "keyframes_11"
+Converted["_keyframes_11"].Parent = Converted["_Main2"]
+
+Converted["_Size11"].Time = 0.23999999463558197
+Converted["_Size11"].Name = "Size"
+Converted["_Size11"].Parent = Converted["_keyframes_11"]
+
+Converted["_BackgroundTransparency11"].Time = 0.2800000011920929
+Converted["_BackgroundTransparency11"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency11"].Parent = Converted["_keyframes_11"]
+
+Converted["_Position11"].Time = 0.23999999463558197
+Converted["_Position11"].Name = "Position"
+Converted["_Position11"].Parent = Converted["_keyframes_11"]
+
+Converted["_keyframes_12"].Name = "keyframes_12"
+Converted["_keyframes_12"].Parent = Converted["_Main2"]
+
+Converted["_Size12"].Time = 0.2800000011920929
+Converted["_Size12"].Name = "Size"
+Converted["_Size12"].Parent = Converted["_keyframes_12"]
+
+Converted["_BackgroundTransparency12"].Time = 0.3100000023841858
+Converted["_BackgroundTransparency12"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency12"].Parent = Converted["_keyframes_12"]
+
+Converted["_Position12"].Time = 0.2800000011920929
+Converted["_Position12"].Name = "Position"
+Converted["_Position12"].Parent = Converted["_keyframes_12"]
+
+Converted["_keyframes_13"].Name = "keyframes_13"
+Converted["_keyframes_13"].Parent = Converted["_Main2"]
+
+Converted["_Size13"].Time = 0.3100000023841858
+Converted["_Size13"].Name = "Size"
+Converted["_Size13"].Parent = Converted["_keyframes_13"]
+
+Converted["_BackgroundTransparency13"].Time = 0.3400000035762787
+Converted["_BackgroundTransparency13"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency13"].Parent = Converted["_keyframes_13"]
+
+Converted["_Position13"].Time = 0.3100000023841858
+Converted["_Position13"].Name = "Position"
+Converted["_Position13"].Parent = Converted["_keyframes_13"]
+
+Converted["_keyframes_14"].Name = "keyframes_14"
+Converted["_keyframes_14"].Parent = Converted["_Main2"]
+
+Converted["_Size14"].Time = 0.3400000035762787
+Converted["_Size14"].Name = "Size"
+Converted["_Size14"].Parent = Converted["_keyframes_14"]
+
+Converted["_BackgroundTransparency14"].Time = 0.3700000047683716
+Converted["_BackgroundTransparency14"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency14"].Parent = Converted["_keyframes_14"]
+
+Converted["_Position14"].Time = 0.3400000035762787
+Converted["_Position14"].Name = "Position"
+Converted["_Position14"].Parent = Converted["_keyframes_14"]
+
+Converted["_keyframes_15"].Name = "keyframes_15"
+Converted["_keyframes_15"].Parent = Converted["_Main2"]
+
+Converted["_Size15"].Time = 0.3700000047683716
+Converted["_Size15"].Name = "Size"
+Converted["_Size15"].Parent = Converted["_keyframes_15"]
+
+Converted["_BackgroundTransparency15"].Time = 0.4099999964237213
+Converted["_BackgroundTransparency15"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency15"].Parent = Converted["_keyframes_15"]
+
+Converted["_Position15"].Time = 0.3700000047683716
+Converted["_Position15"].Name = "Position"
+Converted["_Position15"].Parent = Converted["_keyframes_15"]
+
+Converted["_keyframes_16"].Name = "keyframes_16"
+Converted["_keyframes_16"].Parent = Converted["_Main2"]
+
+Converted["_Size16"].Time = 0.4099999964237213
+Converted["_Size16"].Name = "Size"
+Converted["_Size16"].Parent = Converted["_keyframes_16"]
+
+Converted["_BackgroundTransparency16"].Time = 0.44999998807907104
+Converted["_BackgroundTransparency16"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency16"].Parent = Converted["_keyframes_16"]
+
+Converted["_Position16"].Time = 0.4099999964237213
+Converted["_Position16"].Name = "Position"
+Converted["_Position16"].Parent = Converted["_keyframes_16"]
+
+Converted["_keyframes_17"].Name = "keyframes_17"
+Converted["_keyframes_17"].Parent = Converted["_Main2"]
+
+Converted["_Size17"].Time = 0.44999998807907104
+Converted["_Size17"].Name = "Size"
+Converted["_Size17"].Parent = Converted["_keyframes_17"]
+
+Converted["_BackgroundTransparency17"].Time = 0.5
+Converted["_BackgroundTransparency17"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency17"].Parent = Converted["_keyframes_17"]
+
+Converted["_Position17"].Time = 0.44999998807907104
+Converted["_Position17"].Name = "Position"
+Converted["_Position17"].Parent = Converted["_keyframes_17"]
+
+Converted["_keyframes_18"].Name = "keyframes_18"
+Converted["_keyframes_18"].Parent = Converted["_Main2"]
+
+Converted["_Size18"].Time = 0.5
+Converted["_Size18"].Name = "Size"
+Converted["_Size18"].Parent = Converted["_keyframes_18"]
+
+Converted["_BackgroundTransparency18"].Time = 0.5400000214576721
+Converted["_BackgroundTransparency18"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency18"].Parent = Converted["_keyframes_18"]
+
+Converted["_Position18"].Time = 0.5
+Converted["_Position18"].Name = "Position"
+Converted["_Position18"].Parent = Converted["_keyframes_18"]
+
+Converted["_keyframes_19"].Name = "keyframes_19"
+Converted["_keyframes_19"].Parent = Converted["_Main2"]
+
+Converted["_Size19"].Time = 0.5400000214576721
+Converted["_Size19"].Name = "Size"
+Converted["_Size19"].Parent = Converted["_keyframes_19"]
+
+Converted["_BackgroundTransparency19"].Time = 0.5699999928474426
+Converted["_BackgroundTransparency19"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency19"].Parent = Converted["_keyframes_19"]
+
+Converted["_Position19"].Time = 0.5400000214576721
+Converted["_Position19"].Name = "Position"
+Converted["_Position19"].Parent = Converted["_keyframes_19"]
+
+Converted["_keyframes_20"].Name = "keyframes_20"
+Converted["_keyframes_20"].Parent = Converted["_Main2"]
+
+Converted["_Size20"].Time = 0.5699999928474426
+Converted["_Size20"].Name = "Size"
+Converted["_Size20"].Parent = Converted["_keyframes_20"]
+
+Converted["_BackgroundTransparency20"].Time = 0.6100000143051147
+Converted["_BackgroundTransparency20"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency20"].Parent = Converted["_keyframes_20"]
+
+Converted["_Position20"].Time = 0.5699999928474426
+Converted["_Position20"].Name = "Position"
+Converted["_Position20"].Parent = Converted["_keyframes_20"]
+
+Converted["_keyframes_21"].Name = "keyframes_21"
+Converted["_keyframes_21"].Parent = Converted["_Main2"]
+
+Converted["_Size21"].Time = 0.6100000143051147
+Converted["_Size21"].Name = "Size"
+Converted["_Size21"].Parent = Converted["_keyframes_21"]
+
+Converted["_BackgroundTransparency21"].Time = 0.6600000262260437
+Converted["_BackgroundTransparency21"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency21"].Parent = Converted["_keyframes_21"]
+
+Converted["_Position21"].Time = 0.6100000143051147
+Converted["_Position21"].Name = "Position"
+Converted["_Position21"].Parent = Converted["_keyframes_21"]
+
+Converted["_keyframes_22"].Name = "keyframes_22"
+Converted["_keyframes_22"].Parent = Converted["_Main2"]
+
+Converted["_Size22"].Time = 0.6600000262260437
+Converted["_Size22"].Name = "Size"
+Converted["_Size22"].Parent = Converted["_keyframes_22"]
+
+Converted["_BackgroundTransparency22"].Time = 0.6899999976158142
+Converted["_BackgroundTransparency22"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency22"].Parent = Converted["_keyframes_22"]
+
+Converted["_Position22"].Time = 0.6600000262260437
+Converted["_Position22"].Name = "Position"
+Converted["_Position22"].Parent = Converted["_keyframes_22"]
+
+Converted["_keyframes_23"].Name = "keyframes_23"
+Converted["_keyframes_23"].Parent = Converted["_Main2"]
+
+Converted["_Size23"].Time = 0.6899999976158142
+Converted["_Size23"].Name = "Size"
+Converted["_Size23"].Parent = Converted["_keyframes_23"]
+
+Converted["_BackgroundTransparency23"].Time = 0.7400000095367432
+Converted["_BackgroundTransparency23"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency23"].Parent = Converted["_keyframes_23"]
+
+Converted["_Position23"].Time = 0.6899999976158142
+Converted["_Position23"].Name = "Position"
+Converted["_Position23"].Parent = Converted["_keyframes_23"]
+
+Converted["_keyframes_24"].Name = "keyframes_24"
+Converted["_keyframes_24"].Parent = Converted["_Main2"]
+
+Converted["_Size24"].Time = 0.7400000095367432
+Converted["_Size24"].Name = "Size"
+Converted["_Size24"].Parent = Converted["_keyframes_24"]
+
+Converted["_BackgroundTransparency24"].Time = 0.7799999713897705
+Converted["_BackgroundTransparency24"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency24"].Parent = Converted["_keyframes_24"]
+
+Converted["_Position24"].Time = 0.7400000095367432
+Converted["_Position24"].Name = "Position"
+Converted["_Position24"].Parent = Converted["_keyframes_24"]
+
+Converted["_keyframes_25"].Name = "keyframes_25"
+Converted["_keyframes_25"].Parent = Converted["_Main2"]
+
+Converted["_Size25"].Time = 0.7799999713897705
+Converted["_Size25"].Name = "Size"
+Converted["_Size25"].Parent = Converted["_keyframes_25"]
+
+Converted["_BackgroundTransparency25"].Time = 0.8199999928474426
+Converted["_BackgroundTransparency25"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency25"].Parent = Converted["_keyframes_25"]
+
+Converted["_Position25"].Time = 0.7799999713897705
+Converted["_Position25"].Name = "Position"
+Converted["_Position25"].Parent = Converted["_keyframes_25"]
+
+Converted["_keyframes_26"].Name = "keyframes_26"
+Converted["_keyframes_26"].Parent = Converted["_Main2"]
+
+Converted["_Size26"].Time = 0.8199999928474426
+Converted["_Size26"].Name = "Size"
+Converted["_Size26"].Parent = Converted["_keyframes_26"]
+
+Converted["_BackgroundTransparency26"].Time = 0.8399999737739563
+Converted["_BackgroundTransparency26"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency26"].Parent = Converted["_keyframes_26"]
+
+Converted["_Position26"].Time = 0.8199999928474426
+Converted["_Position26"].Name = "Position"
+Converted["_Position26"].Parent = Converted["_keyframes_26"]
+
+Converted["_keyframes_27"].Name = "keyframes_27"
+Converted["_keyframes_27"].Parent = Converted["_Main2"]
+
+Converted["_Size27"].Time = 0.8399999737739563
+Converted["_Size27"].Name = "Size"
+Converted["_Size27"].Parent = Converted["_keyframes_27"]
+
+Converted["_BackgroundTransparency27"].Time = 0.8700000047683716
+Converted["_BackgroundTransparency27"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency27"].Parent = Converted["_keyframes_27"]
+
+Converted["_Position27"].Time = 0.8399999737739563
+Converted["_Position27"].Name = "Position"
+Converted["_Position27"].Parent = Converted["_keyframes_27"]
+
+Converted["_keyframes_28"].Name = "keyframes_28"
+Converted["_keyframes_28"].Parent = Converted["_Main2"]
+
+Converted["_Size28"].Time = 0.8500000238418579
+Converted["_Size28"].Name = "Size"
+Converted["_Size28"].Parent = Converted["_keyframes_28"]
+
+Converted["_Position28"].Time = 0.8500000238418579
+Converted["_Position28"].Name = "Position"
+Converted["_Position28"].Parent = Converted["_keyframes_28"]
+
+Converted["_keyframes_29"].Name = "keyframes_29"
+Converted["_keyframes_29"].Parent = Converted["_Main2"]
+
+Converted["_Size29"].Time = 0.8700000047683716
+Converted["_Size29"].Name = "Size"
+Converted["_Size29"].Parent = Converted["_keyframes_29"]
+
+Converted["_Position29"].Time = 0.8700000047683716
+Converted["_Position29"].Name = "Position"
+Converted["_Position29"].Parent = Converted["_keyframes_29"]
+
+Converted["_Main2"].Name = "Main2"
+Converted["_Main2"].Parent = Converted["_RoUI3 Exports"]
+
+Converted["_keyframes_01"].Name = "keyframes_0"
+Converted["_keyframes_01"].Parent = Converted["_Main2"]
+
+Converted["_Size30"].Name = "Size"
+Converted["_Size30"].Parent = Converted["_keyframes_01"]
+
+Converted["_BackgroundTransparency28"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency28"].Parent = Converted["_keyframes_01"]
+
+Converted["_Position30"].Name = "Position"
+Converted["_Position30"].Parent = Converted["_keyframes_01"]
+
+Converted["_keyframes_11"].Name = "keyframes_1"
+Converted["_keyframes_11"].Parent = Converted["_Main2"]
+
+Converted["_Size31"].Time = 0.019999999552965164
+Converted["_Size31"].Name = "Size"
+Converted["_Size31"].Parent = Converted["_keyframes_11"]
+
+Converted["_BackgroundTransparency29"].Time = 0.019999999552965164
+Converted["_BackgroundTransparency29"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency29"].Parent = Converted["_keyframes_11"]
+
+Converted["_Position31"].Time = 0.019999999552965164
+Converted["_Position31"].Name = "Position"
+Converted["_Position31"].Parent = Converted["_keyframes_11"]
+
+Converted["_keyframes_21"].Name = "keyframes_2"
+Converted["_keyframes_21"].Parent = Converted["_Main2"]
+
+Converted["_Size32"].Time = 0.029999999329447746
+Converted["_Size32"].Name = "Size"
+Converted["_Size32"].Parent = Converted["_keyframes_21"]
+
+Converted["_BackgroundTransparency30"].Time = 0.029999999329447746
+Converted["_BackgroundTransparency30"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency30"].Parent = Converted["_keyframes_21"]
+
+Converted["_Position32"].Time = 0.029999999329447746
+Converted["_Position32"].Name = "Position"
+Converted["_Position32"].Parent = Converted["_keyframes_21"]
+
+Converted["_keyframes_31"].Name = "keyframes_3"
+Converted["_keyframes_31"].Parent = Converted["_Main2"]
+
+Converted["_Size33"].Time = 0.05000000074505806
+Converted["_Size33"].Name = "Size"
+Converted["_Size33"].Parent = Converted["_keyframes_31"]
+
+Converted["_BackgroundTransparency31"].Time = 0.05000000074505806
+Converted["_BackgroundTransparency31"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency31"].Parent = Converted["_keyframes_31"]
+
+Converted["_Position33"].Time = 0.05000000074505806
+Converted["_Position33"].Name = "Position"
+Converted["_Position33"].Parent = Converted["_keyframes_31"]
+
+Converted["_keyframes_41"].Name = "keyframes_4"
+Converted["_keyframes_41"].Parent = Converted["_Main2"]
+
+Converted["_Size34"].Time = 0.07000000029802322
+Converted["_Size34"].Name = "Size"
+Converted["_Size34"].Parent = Converted["_keyframes_41"]
+
+Converted["_BackgroundTransparency32"].Time = 0.07000000029802322
+Converted["_BackgroundTransparency32"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency32"].Parent = Converted["_keyframes_41"]
+
+Converted["_Position34"].Time = 0.07000000029802322
+Converted["_Position34"].Name = "Position"
+Converted["_Position34"].Parent = Converted["_keyframes_41"]
+
+Converted["_keyframes_51"].Name = "keyframes_5"
+Converted["_keyframes_51"].Parent = Converted["_Main2"]
+
+Converted["_Size35"].Time = 0.07999999821186066
+Converted["_Size35"].Name = "Size"
+Converted["_Size35"].Parent = Converted["_keyframes_51"]
+
+Converted["_BackgroundTransparency33"].Time = 0.07999999821186066
+Converted["_BackgroundTransparency33"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency33"].Parent = Converted["_keyframes_51"]
+
+Converted["_Position35"].Time = 0.07999999821186066
+Converted["_Position35"].Name = "Position"
+Converted["_Position35"].Parent = Converted["_keyframes_51"]
+
+Converted["_keyframes_61"].Name = "keyframes_6"
+Converted["_keyframes_61"].Parent = Converted["_Main2"]
+
+Converted["_Size36"].Time = 0.10999999940395355
+Converted["_Size36"].Name = "Size"
+Converted["_Size36"].Parent = Converted["_keyframes_61"]
+
+Converted["_BackgroundTransparency34"].Time = 0.10999999940395355
+Converted["_BackgroundTransparency34"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency34"].Parent = Converted["_keyframes_61"]
+
+Converted["_Position36"].Time = 0.10999999940395355
+Converted["_Position36"].Name = "Position"
+Converted["_Position36"].Parent = Converted["_keyframes_61"]
+
+Converted["_keyframes_71"].Name = "keyframes_7"
+Converted["_keyframes_71"].Parent = Converted["_Main2"]
+
+Converted["_Size37"].Time = 0.11999999731779099
+Converted["_Size37"].Name = "Size"
+Converted["_Size37"].Parent = Converted["_keyframes_71"]
+
+Converted["_BackgroundTransparency35"].Time = 0.11999999731779099
+Converted["_BackgroundTransparency35"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency35"].Parent = Converted["_keyframes_71"]
+
+Converted["_Position37"].Time = 0.11999999731779099
+Converted["_Position37"].Name = "Position"
+Converted["_Position37"].Parent = Converted["_keyframes_71"]
+
+Converted["_keyframes_81"].Name = "keyframes_8"
+Converted["_keyframes_81"].Parent = Converted["_Main2"]
+
+Converted["_Size38"].Time = 0.1599999964237213
+Converted["_Size38"].Name = "Size"
+Converted["_Size38"].Parent = Converted["_keyframes_81"]
+
+Converted["_BackgroundTransparency36"].Time = 0.1599999964237213
+Converted["_BackgroundTransparency36"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency36"].Parent = Converted["_keyframes_81"]
+
+Converted["_Position38"].Time = 0.1599999964237213
+Converted["_Position38"].Name = "Position"
+Converted["_Position38"].Parent = Converted["_keyframes_81"]
+
+Converted["_keyframes_91"].Name = "keyframes_9"
+Converted["_keyframes_91"].Parent = Converted["_Main2"]
+
+Converted["_Size39"].Time = 0.1899999976158142
+Converted["_Size39"].Name = "Size"
+Converted["_Size39"].Parent = Converted["_keyframes_91"]
+
+Converted["_BackgroundTransparency37"].Time = 0.1899999976158142
+Converted["_BackgroundTransparency37"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency37"].Parent = Converted["_keyframes_91"]
+
+Converted["_Position39"].Time = 0.1899999976158142
+Converted["_Position39"].Name = "Position"
+Converted["_Position39"].Parent = Converted["_keyframes_91"]
+
+Converted["_keyframes_101"].Name = "keyframes_10"
+Converted["_keyframes_101"].Parent = Converted["_Main2"]
+
+Converted["_Size40"].Time = 0.20999999344348907
+Converted["_Size40"].Name = "Size"
+Converted["_Size40"].Parent = Converted["_keyframes_101"]
+
+Converted["_BackgroundTransparency38"].Time = 0.20999999344348907
+Converted["_BackgroundTransparency38"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency38"].Parent = Converted["_keyframes_101"]
+
+Converted["_Position40"].Time = 0.20999999344348907
+Converted["_Position40"].Name = "Position"
+Converted["_Position40"].Parent = Converted["_keyframes_101"]
+
+Converted["_keyframes_111"].Name = "keyframes_11"
+Converted["_keyframes_111"].Parent = Converted["_Main2"]
+
+Converted["_Size41"].Time = 0.23000000417232513
+Converted["_Size41"].Name = "Size"
+Converted["_Size41"].Parent = Converted["_keyframes_111"]
+
+Converted["_BackgroundTransparency39"].Time = 0.23000000417232513
+Converted["_BackgroundTransparency39"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency39"].Parent = Converted["_keyframes_111"]
+
+Converted["_Position41"].Time = 0.23000000417232513
+Converted["_Position41"].Name = "Position"
+Converted["_Position41"].Parent = Converted["_keyframes_111"]
+
+Converted["_keyframes_121"].Name = "keyframes_12"
+Converted["_keyframes_121"].Parent = Converted["_Main2"]
+
+Converted["_Size42"].Time = 0.25
+Converted["_Size42"].Name = "Size"
+Converted["_Size42"].Parent = Converted["_keyframes_121"]
+
+Converted["_BackgroundTransparency40"].Time = 0.25
+Converted["_BackgroundTransparency40"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency40"].Parent = Converted["_keyframes_121"]
+
+Converted["_Position42"].Time = 0.25
+Converted["_Position42"].Name = "Position"
+Converted["_Position42"].Parent = Converted["_keyframes_121"]
+
+Converted["_keyframes_131"].Name = "keyframes_13"
+Converted["_keyframes_131"].Parent = Converted["_Main2"]
+
+Converted["_Size43"].Time = 0.2800000011920929
+Converted["_Size43"].Name = "Size"
+Converted["_Size43"].Parent = Converted["_keyframes_131"]
+
+Converted["_BackgroundTransparency41"].Time = 0.2800000011920929
+Converted["_BackgroundTransparency41"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency41"].Parent = Converted["_keyframes_131"]
+
+Converted["_Position43"].Time = 0.2800000011920929
+Converted["_Position43"].Name = "Position"
+Converted["_Position43"].Parent = Converted["_keyframes_131"]
+
+Converted["_keyframes_141"].Name = "keyframes_14"
+Converted["_keyframes_141"].Parent = Converted["_Main2"]
+
+Converted["_Size44"].Time = 0.3100000023841858
+Converted["_Size44"].Name = "Size"
+Converted["_Size44"].Parent = Converted["_keyframes_141"]
+
+Converted["_BackgroundTransparency42"].Time = 0.3100000023841858
+Converted["_BackgroundTransparency42"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency42"].Parent = Converted["_keyframes_141"]
+
+Converted["_Position44"].Time = 0.3100000023841858
+Converted["_Position44"].Name = "Position"
+Converted["_Position44"].Parent = Converted["_keyframes_141"]
+
+Converted["_keyframes_151"].Name = "keyframes_15"
+Converted["_keyframes_151"].Parent = Converted["_Main2"]
+
+Converted["_Size45"].Time = 0.33000001311302185
+Converted["_Size45"].Name = "Size"
+Converted["_Size45"].Parent = Converted["_keyframes_151"]
+
+Converted["_BackgroundTransparency43"].Time = 0.33000001311302185
+Converted["_BackgroundTransparency43"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency43"].Parent = Converted["_keyframes_151"]
+
+Converted["_Position45"].Time = 0.33000001311302185
+Converted["_Position45"].Name = "Position"
+Converted["_Position45"].Parent = Converted["_keyframes_151"]
+
+Converted["_keyframes_161"].Name = "keyframes_16"
+Converted["_keyframes_161"].Parent = Converted["_Main2"]
+
+Converted["_Size46"].Time = 0.36000001430511475
+Converted["_Size46"].Name = "Size"
+Converted["_Size46"].Parent = Converted["_keyframes_161"]
+
+Converted["_BackgroundTransparency44"].Time = 0.36000001430511475
+Converted["_BackgroundTransparency44"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency44"].Parent = Converted["_keyframes_161"]
+
+Converted["_Position46"].Time = 0.36000001430511475
+Converted["_Position46"].Name = "Position"
+Converted["_Position46"].Parent = Converted["_keyframes_161"]
+
+Converted["_keyframes_171"].Name = "keyframes_17"
+Converted["_keyframes_171"].Parent = Converted["_Main2"]
+
+Converted["_Size47"].Time = 0.4000000059604645
+Converted["_Size47"].Name = "Size"
+Converted["_Size47"].Parent = Converted["_keyframes_171"]
+
+Converted["_BackgroundTransparency45"].Time = 0.4000000059604645
+Converted["_BackgroundTransparency45"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency45"].Parent = Converted["_keyframes_171"]
+
+Converted["_Position47"].Time = 0.4000000059604645
+Converted["_Position47"].Name = "Position"
+Converted["_Position47"].Parent = Converted["_keyframes_171"]
+
+Converted["_keyframes_181"].Name = "keyframes_18"
+Converted["_keyframes_181"].Parent = Converted["_Main2"]
+
+Converted["_Size48"].Time = 0.4399999976158142
+Converted["_Size48"].Name = "Size"
+Converted["_Size48"].Parent = Converted["_keyframes_181"]
+
+Converted["_BackgroundTransparency46"].Time = 0.4399999976158142
+Converted["_BackgroundTransparency46"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency46"].Parent = Converted["_keyframes_181"]
+
+Converted["_Position48"].Time = 0.4399999976158142
+Converted["_Position48"].Name = "Position"
+Converted["_Position48"].Parent = Converted["_keyframes_181"]
+
+Converted["_keyframes_191"].Name = "keyframes_19"
+Converted["_keyframes_191"].Parent = Converted["_Main2"]
+
+Converted["_Size49"].Time = 0.4699999988079071
+Converted["_Size49"].Name = "Size"
+Converted["_Size49"].Parent = Converted["_keyframes_191"]
+
+Converted["_BackgroundTransparency47"].Time = 0.4699999988079071
+Converted["_BackgroundTransparency47"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency47"].Parent = Converted["_keyframes_191"]
+
+Converted["_Position49"].Time = 0.4699999988079071
+Converted["_Position49"].Name = "Position"
+Converted["_Position49"].Parent = Converted["_keyframes_191"]
+
+Converted["_keyframes_201"].Name = "keyframes_20"
+Converted["_keyframes_201"].Parent = Converted["_Main2"]
+
+Converted["_Size50"].Time = 0.5
+Converted["_Size50"].Name = "Size"
+Converted["_Size50"].Parent = Converted["_keyframes_201"]
+
+Converted["_BackgroundTransparency48"].Time = 0.5
+Converted["_BackgroundTransparency48"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency48"].Parent = Converted["_keyframes_201"]
+
+Converted["_Position50"].Time = 0.5
+Converted["_Position50"].Name = "Position"
+Converted["_Position50"].Parent = Converted["_keyframes_201"]
+
+Converted["_keyframes_211"].Name = "keyframes_21"
+Converted["_keyframes_211"].Parent = Converted["_Main2"]
+
+Converted["_Size51"].Time = 0.5299999713897705
+Converted["_Size51"].Name = "Size"
+Converted["_Size51"].Parent = Converted["_keyframes_211"]
+
+Converted["_BackgroundTransparency49"].Time = 0.5299999713897705
+Converted["_BackgroundTransparency49"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency49"].Parent = Converted["_keyframes_211"]
+
+Converted["_Position51"].Time = 0.5299999713897705
+Converted["_Position51"].Name = "Position"
+Converted["_Position51"].Parent = Converted["_keyframes_211"]
+
+Converted["_keyframes_221"].Name = "keyframes_22"
+Converted["_keyframes_221"].Parent = Converted["_Main2"]
+
+Converted["_Size52"].Time = 0.5600000023841858
+Converted["_Size52"].Name = "Size"
+Converted["_Size52"].Parent = Converted["_keyframes_221"]
+
+Converted["_BackgroundTransparency50"].Time = 0.5600000023841858
+Converted["_BackgroundTransparency50"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency50"].Parent = Converted["_keyframes_221"]
+
+Converted["_Position52"].Time = 0.5600000023841858
+Converted["_Position52"].Name = "Position"
+Converted["_Position52"].Parent = Converted["_keyframes_221"]
+
+Converted["_keyframes_231"].Name = "keyframes_23"
+Converted["_keyframes_231"].Parent = Converted["_Main2"]
+
+Converted["_Size53"].Time = 0.6100000143051147
+Converted["_Size53"].Name = "Size"
+Converted["_Size53"].Parent = Converted["_keyframes_231"]
+
+Converted["_BackgroundTransparency51"].Time = 0.6100000143051147
+Converted["_BackgroundTransparency51"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency51"].Parent = Converted["_keyframes_231"]
+
+Converted["_Position53"].Time = 0.6100000143051147
+Converted["_Position53"].Name = "Position"
+Converted["_Position53"].Parent = Converted["_keyframes_231"]
+
+Converted["_keyframes_241"].Name = "keyframes_24"
+Converted["_keyframes_241"].Parent = Converted["_Main2"]
+
+Converted["_Size54"].Time = 0.6499999761581421
+Converted["_Size54"].Name = "Size"
+Converted["_Size54"].Parent = Converted["_keyframes_241"]
+
+Converted["_BackgroundTransparency52"].Time = 0.6499999761581421
+Converted["_BackgroundTransparency52"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency52"].Parent = Converted["_keyframes_241"]
+
+Converted["_Position54"].Time = 0.6499999761581421
+Converted["_Position54"].Name = "Position"
+Converted["_Position54"].Parent = Converted["_keyframes_241"]
+
+Converted["_keyframes_251"].Name = "keyframes_25"
+Converted["_keyframes_251"].Parent = Converted["_Main2"]
+
+Converted["_Size55"].Time = 0.7099999785423279
+Converted["_Size55"].Name = "Size"
+Converted["_Size55"].Parent = Converted["_keyframes_251"]
+
+Converted["_BackgroundTransparency53"].Time = 0.7099999785423279
+Converted["_BackgroundTransparency53"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency53"].Parent = Converted["_keyframes_251"]
+
+Converted["_Position55"].Time = 0.7099999785423279
+Converted["_Position55"].Name = "Position"
+Converted["_Position55"].Parent = Converted["_keyframes_251"]
+
+Converted["_keyframes_261"].Name = "keyframes_26"
+Converted["_keyframes_261"].Parent = Converted["_Main2"]
+
+Converted["_Size56"].Time = 0.7400000095367432
+Converted["_Size56"].Name = "Size"
+Converted["_Size56"].Parent = Converted["_keyframes_261"]
+
+Converted["_BackgroundTransparency54"].Time = 0.7400000095367432
+Converted["_BackgroundTransparency54"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency54"].Parent = Converted["_keyframes_261"]
+
+Converted["_Position56"].Time = 0.7400000095367432
+Converted["_Position56"].Name = "Position"
+Converted["_Position56"].Parent = Converted["_keyframes_261"]
+
+Converted["_keyframes_271"].Name = "keyframes_27"
+Converted["_keyframes_271"].Parent = Converted["_Main2"]
+
+Converted["_Size57"].Time = 0.7699999809265137
+Converted["_Size57"].Name = "Size"
+Converted["_Size57"].Parent = Converted["_keyframes_271"]
+
+Converted["_BackgroundTransparency55"].Time = 0.7699999809265137
+Converted["_BackgroundTransparency55"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency55"].Parent = Converted["_keyframes_271"]
+
+Converted["_Position57"].Time = 0.7699999809265137
+Converted["_Position57"].Name = "Position"
+Converted["_Position57"].Parent = Converted["_keyframes_271"]
+
+Converted["_keyframes_281"].Name = "keyframes_28"
+Converted["_keyframes_281"].Parent = Converted["_Main2"]
+
+Converted["_Size58"].Time = 0.8199999928474426
+Converted["_Size58"].Name = "Size"
+Converted["_Size58"].Parent = Converted["_keyframes_281"]
+
+Converted["_BackgroundTransparency56"].Time = 0.8199999928474426
+Converted["_BackgroundTransparency56"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency56"].Parent = Converted["_keyframes_281"]
+
+Converted["_Position58"].Time = 0.8199999928474426
+Converted["_Position58"].Name = "Position"
+Converted["_Position58"].Parent = Converted["_keyframes_281"]
+
+Converted["_keyframes_291"].Name = "keyframes_29"
+Converted["_keyframes_291"].Parent = Converted["_Main2"]
+
+Converted["_Size59"].Time = 0.8399999737739563
+Converted["_Size59"].Name = "Size"
+Converted["_Size59"].Parent = Converted["_keyframes_291"]
+
+Converted["_BackgroundTransparency57"].Time = 0.8399999737739563
+Converted["_BackgroundTransparency57"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency57"].Parent = Converted["_keyframes_291"]
+
+Converted["_Position59"].Time = 0.8399999737739563
+Converted["_Position59"].Name = "Position"
+Converted["_Position59"].Parent = Converted["_keyframes_291"]
+
+Converted["_keyframes_30"].Name = "keyframes_30"
+Converted["_keyframes_30"].Parent = Converted["_Main2"]
+
+Converted["_Size60"].Time = 0.8500000238418579
+Converted["_Size60"].Name = "Size"
+Converted["_Size60"].Parent = Converted["_keyframes_30"]
+
+Converted["_BackgroundTransparency58"].Time = 0.8500000238418579
+Converted["_BackgroundTransparency58"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency58"].Parent = Converted["_keyframes_30"]
+
+Converted["_Position60"].Time = 0.8500000238418579
+Converted["_Position60"].Name = "Position"
+Converted["_Position60"].Parent = Converted["_keyframes_30"]
+
+Converted["_Credits21"].Name = "Credits2"
+Converted["_Credits21"].Parent = Converted["_RoUI3 Exports"]
+
+Converted["_keyframes_02"].Name = "keyframes_0"
+Converted["_keyframes_02"].Parent = Converted["_Credits21"]
+
+Converted["_Visible"].Name = "Visible"
+Converted["_Visible"].Parent = Converted["_keyframes_02"]
+
+Converted["_BackgroundTransparency59"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency59"].Parent = Converted["_keyframes_02"]
+
+Converted["_Position61"].Name = "Position"
+Converted["_Position61"].Parent = Converted["_keyframes_02"]
+
+Converted["_keyframes_12"].Name = "keyframes_1"
+Converted["_keyframes_12"].Parent = Converted["_Credits21"]
+
+Converted["_Visible1"].Time = 0.9399999976158142
+Converted["_Visible1"].Name = "Visible"
+Converted["_Visible1"].Parent = Converted["_keyframes_12"]
+
+Converted["_BackgroundTransparency60"].Time = 0.009999999776482582
+Converted["_BackgroundTransparency60"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency60"].Parent = Converted["_keyframes_12"]
+
+Converted["_Position62"].Time = 0.009999999776482582
+Converted["_Position62"].Name = "Position"
+Converted["_Position62"].Parent = Converted["_keyframes_12"]
+
+Converted["_keyframes_22"].Name = "keyframes_2"
+Converted["_keyframes_22"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency61"].Time = 0.019999999552965164
+Converted["_BackgroundTransparency61"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency61"].Parent = Converted["_keyframes_22"]
+
+Converted["_Position63"].Time = 0.019999999552965164
+Converted["_Position63"].Name = "Position"
+Converted["_Position63"].Parent = Converted["_keyframes_22"]
+
+Converted["_keyframes_32"].Name = "keyframes_3"
+Converted["_keyframes_32"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency62"].Time = 0.029999999329447746
+Converted["_BackgroundTransparency62"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency62"].Parent = Converted["_keyframes_32"]
+
+Converted["_Position64"].Time = 0.029999999329447746
+Converted["_Position64"].Name = "Position"
+Converted["_Position64"].Parent = Converted["_keyframes_32"]
+
+Converted["_keyframes_42"].Name = "keyframes_4"
+Converted["_keyframes_42"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency63"].Time = 0.03999999910593033
+Converted["_BackgroundTransparency63"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency63"].Parent = Converted["_keyframes_42"]
+
+Converted["_Position65"].Time = 0.03999999910593033
+Converted["_Position65"].Name = "Position"
+Converted["_Position65"].Parent = Converted["_keyframes_42"]
+
+Converted["_keyframes_52"].Name = "keyframes_5"
+Converted["_keyframes_52"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency64"].Time = 0.05000000074505806
+Converted["_BackgroundTransparency64"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency64"].Parent = Converted["_keyframes_52"]
+
+Converted["_Position66"].Time = 0.05000000074505806
+Converted["_Position66"].Name = "Position"
+Converted["_Position66"].Parent = Converted["_keyframes_52"]
+
+Converted["_keyframes_62"].Name = "keyframes_6"
+Converted["_keyframes_62"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency65"].Time = 0.05999999865889549
+Converted["_BackgroundTransparency65"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency65"].Parent = Converted["_keyframes_62"]
+
+Converted["_Position67"].Time = 0.05999999865889549
+Converted["_Position67"].Name = "Position"
+Converted["_Position67"].Parent = Converted["_keyframes_62"]
+
+Converted["_keyframes_72"].Name = "keyframes_7"
+Converted["_keyframes_72"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency66"].Time = 0.07000000029802322
+Converted["_BackgroundTransparency66"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency66"].Parent = Converted["_keyframes_72"]
+
+Converted["_Position68"].Time = 0.07000000029802322
+Converted["_Position68"].Name = "Position"
+Converted["_Position68"].Parent = Converted["_keyframes_72"]
+
+Converted["_keyframes_82"].Name = "keyframes_8"
+Converted["_keyframes_82"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency67"].Time = 0.07999999821186066
+Converted["_BackgroundTransparency67"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency67"].Parent = Converted["_keyframes_82"]
+
+Converted["_Position69"].Time = 0.07999999821186066
+Converted["_Position69"].Name = "Position"
+Converted["_Position69"].Parent = Converted["_keyframes_82"]
+
+Converted["_keyframes_92"].Name = "keyframes_9"
+Converted["_keyframes_92"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency68"].Time = 0.09000000357627869
+Converted["_BackgroundTransparency68"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency68"].Parent = Converted["_keyframes_92"]
+
+Converted["_Position70"].Time = 0.09000000357627869
+Converted["_Position70"].Name = "Position"
+Converted["_Position70"].Parent = Converted["_keyframes_92"]
+
+Converted["_keyframes_102"].Name = "keyframes_10"
+Converted["_keyframes_102"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency69"].Time = 0.10000000149011612
+Converted["_BackgroundTransparency69"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency69"].Parent = Converted["_keyframes_102"]
+
+Converted["_Position71"].Time = 0.10000000149011612
+Converted["_Position71"].Name = "Position"
+Converted["_Position71"].Parent = Converted["_keyframes_102"]
+
+Converted["_keyframes_112"].Name = "keyframes_11"
+Converted["_keyframes_112"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency70"].Time = 0.11999999731779099
+Converted["_BackgroundTransparency70"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency70"].Parent = Converted["_keyframes_112"]
+
+Converted["_Position72"].Time = 0.11999999731779099
+Converted["_Position72"].Name = "Position"
+Converted["_Position72"].Parent = Converted["_keyframes_112"]
+
+Converted["_keyframes_122"].Name = "keyframes_12"
+Converted["_keyframes_122"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency71"].Time = 0.14000000059604645
+Converted["_BackgroundTransparency71"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency71"].Parent = Converted["_keyframes_122"]
+
+Converted["_Position73"].Time = 0.14000000059604645
+Converted["_Position73"].Name = "Position"
+Converted["_Position73"].Parent = Converted["_keyframes_122"]
+
+Converted["_keyframes_132"].Name = "keyframes_13"
+Converted["_keyframes_132"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency72"].Time = 0.1599999964237213
+Converted["_BackgroundTransparency72"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency72"].Parent = Converted["_keyframes_132"]
+
+Converted["_Position74"].Time = 0.1599999964237213
+Converted["_Position74"].Name = "Position"
+Converted["_Position74"].Parent = Converted["_keyframes_132"]
+
+Converted["_keyframes_142"].Name = "keyframes_14"
+Converted["_keyframes_142"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency73"].Time = 0.18000000715255737
+Converted["_BackgroundTransparency73"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency73"].Parent = Converted["_keyframes_142"]
+
+Converted["_Position75"].Time = 0.18000000715255737
+Converted["_Position75"].Name = "Position"
+Converted["_Position75"].Parent = Converted["_keyframes_142"]
+
+Converted["_keyframes_152"].Name = "keyframes_15"
+Converted["_keyframes_152"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency74"].Time = 0.20000000298023224
+Converted["_BackgroundTransparency74"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency74"].Parent = Converted["_keyframes_152"]
+
+Converted["_Position76"].Time = 0.20000000298023224
+Converted["_Position76"].Name = "Position"
+Converted["_Position76"].Parent = Converted["_keyframes_152"]
+
+Converted["_keyframes_162"].Name = "keyframes_16"
+Converted["_keyframes_162"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency75"].Time = 0.20999999344348907
+Converted["_BackgroundTransparency75"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency75"].Parent = Converted["_keyframes_162"]
+
+Converted["_Position77"].Time = 0.20999999344348907
+Converted["_Position77"].Name = "Position"
+Converted["_Position77"].Parent = Converted["_keyframes_162"]
+
+Converted["_keyframes_172"].Name = "keyframes_17"
+Converted["_keyframes_172"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency76"].Time = 0.23000000417232513
+Converted["_BackgroundTransparency76"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency76"].Parent = Converted["_keyframes_172"]
+
+Converted["_Position78"].Time = 0.23000000417232513
+Converted["_Position78"].Name = "Position"
+Converted["_Position78"].Parent = Converted["_keyframes_172"]
+
+Converted["_keyframes_182"].Name = "keyframes_18"
+Converted["_keyframes_182"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency77"].Time = 0.25
+Converted["_BackgroundTransparency77"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency77"].Parent = Converted["_keyframes_182"]
+
+Converted["_Position79"].Time = 0.25
+Converted["_Position79"].Name = "Position"
+Converted["_Position79"].Parent = Converted["_keyframes_182"]
+
+Converted["_keyframes_192"].Name = "keyframes_19"
+Converted["_keyframes_192"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency78"].Time = 0.25999999046325684
+Converted["_BackgroundTransparency78"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency78"].Parent = Converted["_keyframes_192"]
+
+Converted["_Position80"].Time = 0.25999999046325684
+Converted["_Position80"].Name = "Position"
+Converted["_Position80"].Parent = Converted["_keyframes_192"]
+
+Converted["_keyframes_202"].Name = "keyframes_20"
+Converted["_keyframes_202"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency79"].Time = 0.27000001072883606
+Converted["_BackgroundTransparency79"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency79"].Parent = Converted["_keyframes_202"]
+
+Converted["_Position81"].Time = 0.27000001072883606
+Converted["_Position81"].Name = "Position"
+Converted["_Position81"].Parent = Converted["_keyframes_202"]
+
+Converted["_keyframes_212"].Name = "keyframes_21"
+Converted["_keyframes_212"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency80"].Time = 0.2800000011920929
+Converted["_BackgroundTransparency80"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency80"].Parent = Converted["_keyframes_212"]
+
+Converted["_Position82"].Time = 0.2800000011920929
+Converted["_Position82"].Name = "Position"
+Converted["_Position82"].Parent = Converted["_keyframes_212"]
+
+Converted["_keyframes_222"].Name = "keyframes_22"
+Converted["_keyframes_222"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency81"].Time = 0.28999999165534973
+Converted["_BackgroundTransparency81"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency81"].Parent = Converted["_keyframes_222"]
+
+Converted["_Position83"].Time = 0.28999999165534973
+Converted["_Position83"].Name = "Position"
+Converted["_Position83"].Parent = Converted["_keyframes_222"]
+
+Converted["_keyframes_232"].Name = "keyframes_23"
+Converted["_keyframes_232"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency82"].Time = 0.30000001192092896
+Converted["_BackgroundTransparency82"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency82"].Parent = Converted["_keyframes_232"]
+
+Converted["_Position84"].Time = 0.30000001192092896
+Converted["_Position84"].Name = "Position"
+Converted["_Position84"].Parent = Converted["_keyframes_232"]
+
+Converted["_keyframes_242"].Name = "keyframes_24"
+Converted["_keyframes_242"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency83"].Time = 0.3100000023841858
+Converted["_BackgroundTransparency83"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency83"].Parent = Converted["_keyframes_242"]
+
+Converted["_Position85"].Time = 0.3100000023841858
+Converted["_Position85"].Name = "Position"
+Converted["_Position85"].Parent = Converted["_keyframes_242"]
+
+Converted["_keyframes_252"].Name = "keyframes_25"
+Converted["_keyframes_252"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency84"].Time = 0.3199999928474426
+Converted["_BackgroundTransparency84"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency84"].Parent = Converted["_keyframes_252"]
+
+Converted["_Position86"].Time = 0.3199999928474426
+Converted["_Position86"].Name = "Position"
+Converted["_Position86"].Parent = Converted["_keyframes_252"]
+
+Converted["_keyframes_262"].Name = "keyframes_26"
+Converted["_keyframes_262"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency85"].Time = 0.33000001311302185
+Converted["_BackgroundTransparency85"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency85"].Parent = Converted["_keyframes_262"]
+
+Converted["_Position87"].Time = 0.33000001311302185
+Converted["_Position87"].Name = "Position"
+Converted["_Position87"].Parent = Converted["_keyframes_262"]
+
+Converted["_keyframes_272"].Name = "keyframes_27"
+Converted["_keyframes_272"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency86"].Time = 0.3499999940395355
+Converted["_BackgroundTransparency86"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency86"].Parent = Converted["_keyframes_272"]
+
+Converted["_Position88"].Time = 0.3499999940395355
+Converted["_Position88"].Name = "Position"
+Converted["_Position88"].Parent = Converted["_keyframes_272"]
+
+Converted["_keyframes_282"].Name = "keyframes_28"
+Converted["_keyframes_282"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency87"].Time = 0.3700000047683716
+Converted["_BackgroundTransparency87"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency87"].Parent = Converted["_keyframes_282"]
+
+Converted["_Position89"].Time = 0.3700000047683716
+Converted["_Position89"].Name = "Position"
+Converted["_Position89"].Parent = Converted["_keyframes_282"]
+
+Converted["_keyframes_292"].Name = "keyframes_29"
+Converted["_keyframes_292"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency88"].Time = 0.38999998569488525
+Converted["_BackgroundTransparency88"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency88"].Parent = Converted["_keyframes_292"]
+
+Converted["_Position90"].Time = 0.38999998569488525
+Converted["_Position90"].Name = "Position"
+Converted["_Position90"].Parent = Converted["_keyframes_292"]
+
+Converted["_keyframes_301"].Name = "keyframes_30"
+Converted["_keyframes_301"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency89"].Time = 0.4000000059604645
+Converted["_BackgroundTransparency89"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency89"].Parent = Converted["_keyframes_301"]
+
+Converted["_Position91"].Time = 0.4000000059604645
+Converted["_Position91"].Name = "Position"
+Converted["_Position91"].Parent = Converted["_keyframes_301"]
+
+Converted["_keyframes_31"].Name = "keyframes_31"
+Converted["_keyframes_31"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency90"].Time = 0.4099999964237213
+Converted["_BackgroundTransparency90"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency90"].Parent = Converted["_keyframes_31"]
+
+Converted["_Position92"].Time = 0.4099999964237213
+Converted["_Position92"].Name = "Position"
+Converted["_Position92"].Parent = Converted["_keyframes_31"]
+
+Converted["_keyframes_32"].Name = "keyframes_32"
+Converted["_keyframes_32"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency91"].Time = 0.41999998688697815
+Converted["_BackgroundTransparency91"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency91"].Parent = Converted["_keyframes_32"]
+
+Converted["_Position93"].Time = 0.41999998688697815
+Converted["_Position93"].Name = "Position"
+Converted["_Position93"].Parent = Converted["_keyframes_32"]
+
+Converted["_keyframes_33"].Name = "keyframes_33"
+Converted["_keyframes_33"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency92"].Time = 0.4300000071525574
+Converted["_BackgroundTransparency92"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency92"].Parent = Converted["_keyframes_33"]
+
+Converted["_Position94"].Time = 0.4300000071525574
+Converted["_Position94"].Name = "Position"
+Converted["_Position94"].Parent = Converted["_keyframes_33"]
+
+Converted["_keyframes_34"].Name = "keyframes_34"
+Converted["_keyframes_34"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency93"].Time = 0.4399999976158142
+Converted["_BackgroundTransparency93"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency93"].Parent = Converted["_keyframes_34"]
+
+Converted["_Position95"].Time = 0.4399999976158142
+Converted["_Position95"].Name = "Position"
+Converted["_Position95"].Parent = Converted["_keyframes_34"]
+
+Converted["_keyframes_35"].Name = "keyframes_35"
+Converted["_keyframes_35"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency94"].Time = 0.44999998807907104
+Converted["_BackgroundTransparency94"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency94"].Parent = Converted["_keyframes_35"]
+
+Converted["_Position96"].Time = 0.44999998807907104
+Converted["_Position96"].Name = "Position"
+Converted["_Position96"].Parent = Converted["_keyframes_35"]
+
+Converted["_keyframes_36"].Name = "keyframes_36"
+Converted["_keyframes_36"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency95"].Time = 0.46000000834465027
+Converted["_BackgroundTransparency95"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency95"].Parent = Converted["_keyframes_36"]
+
+Converted["_Position97"].Time = 0.46000000834465027
+Converted["_Position97"].Name = "Position"
+Converted["_Position97"].Parent = Converted["_keyframes_36"]
+
+Converted["_keyframes_37"].Name = "keyframes_37"
+Converted["_keyframes_37"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency96"].Time = 0.4699999988079071
+Converted["_BackgroundTransparency96"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency96"].Parent = Converted["_keyframes_37"]
+
+Converted["_Position98"].Time = 0.4699999988079071
+Converted["_Position98"].Name = "Position"
+Converted["_Position98"].Parent = Converted["_keyframes_37"]
+
+Converted["_keyframes_38"].Name = "keyframes_38"
+Converted["_keyframes_38"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency97"].Time = 0.47999998927116394
+Converted["_BackgroundTransparency97"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency97"].Parent = Converted["_keyframes_38"]
+
+Converted["_Position99"].Time = 0.47999998927116394
+Converted["_Position99"].Name = "Position"
+Converted["_Position99"].Parent = Converted["_keyframes_38"]
+
+Converted["_keyframes_39"].Name = "keyframes_39"
+Converted["_keyframes_39"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency98"].Time = 0.49000000953674316
+Converted["_BackgroundTransparency98"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency98"].Parent = Converted["_keyframes_39"]
+
+Converted["_Position100"].Time = 0.49000000953674316
+Converted["_Position100"].Name = "Position"
+Converted["_Position100"].Parent = Converted["_keyframes_39"]
+
+Converted["_keyframes_40"].Name = "keyframes_40"
+Converted["_keyframes_40"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency99"].Time = 0.5099999904632568
+Converted["_BackgroundTransparency99"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency99"].Parent = Converted["_keyframes_40"]
+
+Converted["_Position101"].Time = 0.5099999904632568
+Converted["_Position101"].Name = "Position"
+Converted["_Position101"].Parent = Converted["_keyframes_40"]
+
+Converted["_keyframes_41"].Name = "keyframes_41"
+Converted["_keyframes_41"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency100"].Time = 0.5199999809265137
+Converted["_BackgroundTransparency100"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency100"].Parent = Converted["_keyframes_41"]
+
+Converted["_Position102"].Time = 0.5199999809265137
+Converted["_Position102"].Name = "Position"
+Converted["_Position102"].Parent = Converted["_keyframes_41"]
+
+Converted["_keyframes_42"].Name = "keyframes_42"
+Converted["_keyframes_42"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency101"].Time = 0.5299999713897705
+Converted["_BackgroundTransparency101"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency101"].Parent = Converted["_keyframes_42"]
+
+Converted["_Position103"].Time = 0.5299999713897705
+Converted["_Position103"].Name = "Position"
+Converted["_Position103"].Parent = Converted["_keyframes_42"]
+
+Converted["_keyframes_43"].Name = "keyframes_43"
+Converted["_keyframes_43"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency102"].Time = 0.5400000214576721
+Converted["_BackgroundTransparency102"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency102"].Parent = Converted["_keyframes_43"]
+
+Converted["_Position104"].Time = 0.5400000214576721
+Converted["_Position104"].Name = "Position"
+Converted["_Position104"].Parent = Converted["_keyframes_43"]
+
+Converted["_keyframes_44"].Name = "keyframes_44"
+Converted["_keyframes_44"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency103"].Time = 0.550000011920929
+Converted["_BackgroundTransparency103"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency103"].Parent = Converted["_keyframes_44"]
+
+Converted["_Position105"].Time = 0.550000011920929
+Converted["_Position105"].Name = "Position"
+Converted["_Position105"].Parent = Converted["_keyframes_44"]
+
+Converted["_keyframes_45"].Name = "keyframes_45"
+Converted["_keyframes_45"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency104"].Time = 0.5600000023841858
+Converted["_BackgroundTransparency104"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency104"].Parent = Converted["_keyframes_45"]
+
+Converted["_Position106"].Time = 0.5600000023841858
+Converted["_Position106"].Name = "Position"
+Converted["_Position106"].Parent = Converted["_keyframes_45"]
+
+Converted["_keyframes_46"].Name = "keyframes_46"
+Converted["_keyframes_46"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency105"].Time = 0.5699999928474426
+Converted["_BackgroundTransparency105"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency105"].Parent = Converted["_keyframes_46"]
+
+Converted["_Position107"].Time = 0.5699999928474426
+Converted["_Position107"].Name = "Position"
+Converted["_Position107"].Parent = Converted["_keyframes_46"]
+
+Converted["_keyframes_47"].Name = "keyframes_47"
+Converted["_keyframes_47"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency106"].Time = 0.5799999833106995
+Converted["_BackgroundTransparency106"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency106"].Parent = Converted["_keyframes_47"]
+
+Converted["_Position108"].Time = 0.5799999833106995
+Converted["_Position108"].Name = "Position"
+Converted["_Position108"].Parent = Converted["_keyframes_47"]
+
+Converted["_keyframes_48"].Name = "keyframes_48"
+Converted["_keyframes_48"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency107"].Time = 0.6000000238418579
+Converted["_BackgroundTransparency107"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency107"].Parent = Converted["_keyframes_48"]
+
+Converted["_Position109"].Time = 0.6000000238418579
+Converted["_Position109"].Name = "Position"
+Converted["_Position109"].Parent = Converted["_keyframes_48"]
+
+Converted["_keyframes_49"].Name = "keyframes_49"
+Converted["_keyframes_49"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency108"].Time = 0.6200000047683716
+Converted["_BackgroundTransparency108"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency108"].Parent = Converted["_keyframes_49"]
+
+Converted["_Position110"].Time = 0.6200000047683716
+Converted["_Position110"].Name = "Position"
+Converted["_Position110"].Parent = Converted["_keyframes_49"]
+
+Converted["_keyframes_50"].Name = "keyframes_50"
+Converted["_keyframes_50"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency109"].Time = 0.6399999856948853
+Converted["_BackgroundTransparency109"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency109"].Parent = Converted["_keyframes_50"]
+
+Converted["_Position111"].Time = 0.6399999856948853
+Converted["_Position111"].Name = "Position"
+Converted["_Position111"].Parent = Converted["_keyframes_50"]
+
+Converted["_keyframes_51"].Name = "keyframes_51"
+Converted["_keyframes_51"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency110"].Time = 0.6600000262260437
+Converted["_BackgroundTransparency110"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency110"].Parent = Converted["_keyframes_51"]
+
+Converted["_Position112"].Time = 0.6600000262260437
+Converted["_Position112"].Name = "Position"
+Converted["_Position112"].Parent = Converted["_keyframes_51"]
+
+Converted["_keyframes_52"].Name = "keyframes_52"
+Converted["_keyframes_52"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency111"].Time = 0.6700000166893005
+Converted["_BackgroundTransparency111"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency111"].Parent = Converted["_keyframes_52"]
+
+Converted["_Position113"].Time = 0.6700000166893005
+Converted["_Position113"].Name = "Position"
+Converted["_Position113"].Parent = Converted["_keyframes_52"]
+
+Converted["_keyframes_53"].Name = "keyframes_53"
+Converted["_keyframes_53"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency112"].Time = 0.6800000071525574
+Converted["_BackgroundTransparency112"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency112"].Parent = Converted["_keyframes_53"]
+
+Converted["_Position114"].Time = 0.6800000071525574
+Converted["_Position114"].Name = "Position"
+Converted["_Position114"].Parent = Converted["_keyframes_53"]
+
+Converted["_keyframes_54"].Name = "keyframes_54"
+Converted["_keyframes_54"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency113"].Time = 0.6899999976158142
+Converted["_BackgroundTransparency113"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency113"].Parent = Converted["_keyframes_54"]
+
+Converted["_Position115"].Time = 0.6899999976158142
+Converted["_Position115"].Name = "Position"
+Converted["_Position115"].Parent = Converted["_keyframes_54"]
+
+Converted["_keyframes_55"].Name = "keyframes_55"
+Converted["_keyframes_55"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency114"].Time = 0.699999988079071
+Converted["_BackgroundTransparency114"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency114"].Parent = Converted["_keyframes_55"]
+
+Converted["_Position116"].Time = 0.699999988079071
+Converted["_Position116"].Name = "Position"
+Converted["_Position116"].Parent = Converted["_keyframes_55"]
+
+Converted["_keyframes_56"].Name = "keyframes_56"
+Converted["_keyframes_56"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency115"].Time = 0.7099999785423279
+Converted["_BackgroundTransparency115"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency115"].Parent = Converted["_keyframes_56"]
+
+Converted["_Position117"].Time = 0.7099999785423279
+Converted["_Position117"].Name = "Position"
+Converted["_Position117"].Parent = Converted["_keyframes_56"]
+
+Converted["_keyframes_57"].Name = "keyframes_57"
+Converted["_keyframes_57"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency116"].Time = 0.7200000286102295
+Converted["_BackgroundTransparency116"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency116"].Parent = Converted["_keyframes_57"]
+
+Converted["_Position118"].Time = 0.7200000286102295
+Converted["_Position118"].Name = "Position"
+Converted["_Position118"].Parent = Converted["_keyframes_57"]
+
+Converted["_keyframes_58"].Name = "keyframes_58"
+Converted["_keyframes_58"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency117"].Time = 0.7300000190734863
+Converted["_BackgroundTransparency117"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency117"].Parent = Converted["_keyframes_58"]
+
+Converted["_Position119"].Time = 0.7300000190734863
+Converted["_Position119"].Name = "Position"
+Converted["_Position119"].Parent = Converted["_keyframes_58"]
+
+Converted["_keyframes_59"].Name = "keyframes_59"
+Converted["_keyframes_59"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency118"].Time = 0.7400000095367432
+Converted["_BackgroundTransparency118"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency118"].Parent = Converted["_keyframes_59"]
+
+Converted["_Position120"].Time = 0.7400000095367432
+Converted["_Position120"].Name = "Position"
+Converted["_Position120"].Parent = Converted["_keyframes_59"]
+
+Converted["_keyframes_60"].Name = "keyframes_60"
+Converted["_keyframes_60"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency119"].Time = 0.75
+Converted["_BackgroundTransparency119"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency119"].Parent = Converted["_keyframes_60"]
+
+Converted["_Position121"].Time = 0.75
+Converted["_Position121"].Name = "Position"
+Converted["_Position121"].Parent = Converted["_keyframes_60"]
+
+Converted["_keyframes_61"].Name = "keyframes_61"
+Converted["_keyframes_61"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency120"].Time = 0.7599999904632568
+Converted["_BackgroundTransparency120"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency120"].Parent = Converted["_keyframes_61"]
+
+Converted["_Position122"].Time = 0.7599999904632568
+Converted["_Position122"].Name = "Position"
+Converted["_Position122"].Parent = Converted["_keyframes_61"]
+
+Converted["_keyframes_62"].Name = "keyframes_62"
+Converted["_keyframes_62"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency121"].Time = 0.7699999809265137
+Converted["_BackgroundTransparency121"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency121"].Parent = Converted["_keyframes_62"]
+
+Converted["_Position123"].Time = 0.7699999809265137
+Converted["_Position123"].Name = "Position"
+Converted["_Position123"].Parent = Converted["_keyframes_62"]
+
+Converted["_keyframes_63"].Name = "keyframes_63"
+Converted["_keyframes_63"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency122"].Time = 0.7900000214576721
+Converted["_BackgroundTransparency122"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency122"].Parent = Converted["_keyframes_63"]
+
+Converted["_Position124"].Time = 0.7900000214576721
+Converted["_Position124"].Name = "Position"
+Converted["_Position124"].Parent = Converted["_keyframes_63"]
+
+Converted["_keyframes_64"].Name = "keyframes_64"
+Converted["_keyframes_64"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency123"].Time = 0.800000011920929
+Converted["_BackgroundTransparency123"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency123"].Parent = Converted["_keyframes_64"]
+
+Converted["_Position125"].Time = 0.800000011920929
+Converted["_Position125"].Name = "Position"
+Converted["_Position125"].Parent = Converted["_keyframes_64"]
+
+Converted["_keyframes_65"].Name = "keyframes_65"
+Converted["_keyframes_65"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency124"].Time = 0.8100000023841858
+Converted["_BackgroundTransparency124"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency124"].Parent = Converted["_keyframes_65"]
+
+Converted["_Position126"].Time = 0.8100000023841858
+Converted["_Position126"].Name = "Position"
+Converted["_Position126"].Parent = Converted["_keyframes_65"]
+
+Converted["_keyframes_66"].Name = "keyframes_66"
+Converted["_keyframes_66"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency125"].Time = 0.8199999928474426
+Converted["_BackgroundTransparency125"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency125"].Parent = Converted["_keyframes_66"]
+
+Converted["_Position127"].Time = 0.8199999928474426
+Converted["_Position127"].Name = "Position"
+Converted["_Position127"].Parent = Converted["_keyframes_66"]
+
+Converted["_keyframes_67"].Name = "keyframes_67"
+Converted["_keyframes_67"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency126"].Time = 0.8299999833106995
+Converted["_BackgroundTransparency126"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency126"].Parent = Converted["_keyframes_67"]
+
+Converted["_Position128"].Time = 0.8299999833106995
+Converted["_Position128"].Name = "Position"
+Converted["_Position128"].Parent = Converted["_keyframes_67"]
+
+Converted["_keyframes_68"].Name = "keyframes_68"
+Converted["_keyframes_68"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency127"].Time = 0.8399999737739563
+Converted["_BackgroundTransparency127"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency127"].Parent = Converted["_keyframes_68"]
+
+Converted["_Position129"].Time = 0.8399999737739563
+Converted["_Position129"].Name = "Position"
+Converted["_Position129"].Parent = Converted["_keyframes_68"]
+
+Converted["_keyframes_69"].Name = "keyframes_69"
+Converted["_keyframes_69"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency128"].Time = 0.8500000238418579
+Converted["_BackgroundTransparency128"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency128"].Parent = Converted["_keyframes_69"]
+
+Converted["_Position130"].Time = 0.8500000238418579
+Converted["_Position130"].Name = "Position"
+Converted["_Position130"].Parent = Converted["_keyframes_69"]
+
+Converted["_keyframes_70"].Name = "keyframes_70"
+Converted["_keyframes_70"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency129"].Time = 0.8700000047683716
+Converted["_BackgroundTransparency129"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency129"].Parent = Converted["_keyframes_70"]
+
+Converted["_Position131"].Time = 0.8700000047683716
+Converted["_Position131"].Name = "Position"
+Converted["_Position131"].Parent = Converted["_keyframes_70"]
+
+Converted["_keyframes_71"].Name = "keyframes_71"
+Converted["_keyframes_71"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency130"].Time = 0.8799999952316284
+Converted["_BackgroundTransparency130"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency130"].Parent = Converted["_keyframes_71"]
+
+Converted["_Position132"].Time = 0.8799999952316284
+Converted["_Position132"].Name = "Position"
+Converted["_Position132"].Parent = Converted["_keyframes_71"]
+
+Converted["_keyframes_72"].Name = "keyframes_72"
+Converted["_keyframes_72"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency131"].Time = 0.8899999856948853
+Converted["_BackgroundTransparency131"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency131"].Parent = Converted["_keyframes_72"]
+
+Converted["_Position133"].Time = 0.8899999856948853
+Converted["_Position133"].Name = "Position"
+Converted["_Position133"].Parent = Converted["_keyframes_72"]
+
+Converted["_keyframes_73"].Name = "keyframes_73"
+Converted["_keyframes_73"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency132"].Time = 0.9100000262260437
+Converted["_BackgroundTransparency132"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency132"].Parent = Converted["_keyframes_73"]
+
+Converted["_Position134"].Time = 0.9100000262260437
+Converted["_Position134"].Name = "Position"
+Converted["_Position134"].Parent = Converted["_keyframes_73"]
+
+Converted["_keyframes_74"].Name = "keyframes_74"
+Converted["_keyframes_74"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency133"].Time = 0.9200000166893005
+Converted["_BackgroundTransparency133"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency133"].Parent = Converted["_keyframes_74"]
+
+Converted["_Position135"].Time = 0.9200000166893005
+Converted["_Position135"].Name = "Position"
+Converted["_Position135"].Parent = Converted["_keyframes_74"]
+
+Converted["_keyframes_75"].Name = "keyframes_75"
+Converted["_keyframes_75"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency134"].Time = 0.9300000071525574
+Converted["_BackgroundTransparency134"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency134"].Parent = Converted["_keyframes_75"]
+
+Converted["_Position136"].Time = 0.9300000071525574
+Converted["_Position136"].Name = "Position"
+Converted["_Position136"].Parent = Converted["_keyframes_75"]
+
+Converted["_keyframes_76"].Name = "keyframes_76"
+Converted["_keyframes_76"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency135"].Time = 0.9399999976158142
+Converted["_BackgroundTransparency135"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency135"].Parent = Converted["_keyframes_76"]
+
+Converted["_Position137"].Time = 0.9399999976158142
+Converted["_Position137"].Name = "Position"
+Converted["_Position137"].Parent = Converted["_keyframes_76"]
+
+Converted["_keyframes_77"].Name = "keyframes_77"
+Converted["_keyframes_77"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency136"].Time = 0.949999988079071
+Converted["_BackgroundTransparency136"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency136"].Parent = Converted["_keyframes_77"]
+
+Converted["_Position138"].Time = 0.949999988079071
+Converted["_Position138"].Name = "Position"
+Converted["_Position138"].Parent = Converted["_keyframes_77"]
+
+Converted["_keyframes_78"].Name = "keyframes_78"
+Converted["_keyframes_78"].Parent = Converted["_Credits21"]
+
+Converted["_BackgroundTransparency137"].Time = 0.9599999785423279
+Converted["_BackgroundTransparency137"].Name = "BackgroundTransparency"
+Converted["_BackgroundTransparency137"].Parent = Converted["_keyframes_78"]
+
+Converted["_Position139"].Time = 0.9599999785423279
+Converted["_Position139"].Name = "Position"
+Converted["_Position139"].Parent = Converted["_keyframes_78"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- Fake Module: StarterGui.FrostWare.RoUI3
+    local script = Instance.new("ModuleScript")
+    script.Name = "RoUI3"
+    script.Parent = Converted["_FrostWare"]
+    local function module_script()
+		--[[
+		
+			RoUI3 Animation Module
+		
+			This module is used to control animations generated
+			by the RoUI3 plugin. For full documentation please
+			visit RoUI3's GitHub page.
+			
+			GitHub: https://github.com/astrealRBLX/RoUI3
+		
+		]]
+		
+		local TWEEN_SERVICE = game:GetService('TweenService')
+		local RUN_SERVICE = game:GetService('RunService')
+		
+		local RoUI3 = {}
+		local AnimationControllerClass = {}
+		local AnimationClass = {}
+		
+		type Array<T> = {[number]: T}
+		type Set<T> = {[T]: boolean}
+		type AnimationOptions = {
+		  TimeScale: number,
+		}
+		
+		--[[
+		  Private function that generates tweens for an animation
+		]]
+		local function generateTweens(animation: AnimationController, target: GuiObject, timeScale: number?)
+		  local tweens: {[string]: Array<Tween>} = {}
+		
+		  timeScale = timeScale or 1
+		
+		  -- Get keyframe groups
+		  local keyframeGroups: Array<Folder> = {}
+		  for _, group in animation:GetChildren() do
+		    keyframeGroups[tonumber(group.Name:sub(11)) + 1] = group
+		  end
+		
+		  -- Generate tweens
+		  for index, group in keyframeGroups do
+		    for _, keyframe: Keyframe in group:GetChildren() do
+		      local position: number = keyframe.Time
+		      local value: any = keyframe:GetAttribute('Value')
+		      local property: string = keyframe:GetAttribute('Property')
+		      local easingStyle: string = keyframe:GetAttribute('EasingStyle')
+		      local easingDirection: string = keyframe:GetAttribute('EasingDirection')
+		
+		      if not tweens[property] then
+		        tweens[property] = {}
+		      end
+		
+		      local tweenTime: number
+		      if index == 1 then
+		        tweenTime = position * timeScale
+		      else
+		        local lastGroup: Folder = animation:FindFirstChild('keyframes_' .. index - 2)
+		        local lastKeyframe: Keyframe = lastGroup:FindFirstChild(keyframe.Name)
+		
+		        tweenTime = (position - lastKeyframe.Time) * timeScale
+		      end
+		
+		      local tweenInfo = TweenInfo.new(tweenTime, Enum.EasingStyle[easingStyle], Enum.EasingDirection[easingDirection])
+		      local goal = {
+		        [property] = value
+		      }
+		
+		      table.insert(tweens[property], TWEEN_SERVICE:Create(target, tweenInfo, goal))
+		    end
+		  end
+		
+		  return tweens
+		end
+		
+		--[[
+		  Creates a new RoUI3 animation controller
+		]]
+		function RoUI3.new()
+		  local self = setmetatable({}, {
+		    __index = AnimationControllerClass
+		  })
+		
+		  self.Animations = {}
+		
+		  return self
+		end
+		
+		--[[
+		  Loads an animation into the controller to be used later
+		]]
+		function AnimationControllerClass:LoadAnimation(animation: AnimationController, target: GuiObject)
+		  local this = setmetatable({}, {
+		    __index = AnimationClass
+		  })
+		
+		  this.Animation = animation
+		  this.Target = target
+		  this.Tweens = generateTweens(animation, target)
+		  this.ActiveTweens = {} :: Array<Tween>
+		  this.Active = false
+		  this.Paused = Instance.new('BoolValue')
+		  this.Cancelled = Instance.new('BoolValue')
+		
+		  self.Animations[animation.Name] = this
+		
+		  return this
+		end
+		
+		--[[
+		  Plays all animations loaded into this controller
+		]]
+		function AnimationControllerClass:PlayAll(options: AnimationOptions?)
+		  for _, animation in pairs(self.Animations) do
+		    animation:Play(options)
+		  end
+		end
+		
+		--[[
+		  Play/resume an animation
+		]]
+		function AnimationClass:Play(options: AnimationOptions?)
+		  if self.Active then
+		    -- Resume an active animation
+		    if self.Paused.Value then
+		      self.Paused.Value = false
+		    end
+		    return
+		  end
+		
+		  options = options or {}
+		
+		  local tweens = if options.TimeScale then generateTweens(self.Animation, self.Target, options.TimeScale) else self.Tweens
+		
+		  self.Active = true
+		
+		  for _, propertyTweens: Array<Tween> in tweens do
+		    coroutine.wrap(function()
+		      for _, tween in propertyTweens do
+		        if self.Cancelled.Value then
+		          self.Cancelled.Value = false
+		          self.Paused.Value = false
+		          break
+		        end
+		
+		        table.insert(self.ActiveTweens, tween);
+		        tween:Play();
+		
+		        -- Handle pausing
+		        local pauseConn = self.Paused.Changed:Connect(function(value)
+		          if value then
+		            tween:Pause()
+		          else
+		            tween:Play()
+		          end
+		        end)
+		
+		        -- Handle cancelling
+		        local cancelConn = self.Cancelled.Changed:Connect(function(value)
+		          if value then
+		            tween:Cancel()
+		          end
+		        end)
+		
+		        tween.Completed:Wait()
+		
+		        -- Clean up when the tween concludes
+		        table.remove(self.ActiveTweens, table.find(self.ActiveTweens, tween))
+		        tween:Destroy()
+		        pauseConn:Disconnect()
+		        cancelConn:Disconnect()
+		
+		        if #self.ActiveTweens == 0 then
+		          self.Active = false
+		        end
+		      end
+		    end)()
+		  end
+		end
+		
+		--[[
+		  Pause an animation
+		]]
+		function AnimationClass:Pause()
+		  self.Paused.Value = true
+		end
+		
+		--[[
+		  Yield the current thread until an animation concludes
+		]]
+		function AnimationClass:Wait()
+		  if not self.Active then
+		    warn('RoUI3 | Animation \'' .. self.Animation.Name .. '\' is not currently playing and cannot be yielded for')
+		    return
+		  end
+		
+		  repeat
+		    RUN_SERVICE.RenderStepped:Wait()
+		  until not self.Active
+		end
+		
+		--[[
+		  Cancel an animation during playback
+		]]
+		function AnimationClass:Cancel()
+		  if not self.Active then
+		    warn('RoUI3 | Animation \'' .. self.Animation.Name .. '\' is not currently playing and cannot be cancelled')
+		    return
+		  end
+		
+		  self.Cancelled.Value = true
+		end
+		
+		--[[
+		  Skip to the end of an animation
+		]]
+		function AnimationClass:Finish()
+		  self:Cancel()
+		  
+		  local propertiesFound: Set<string> = {}
+		  local propertyValues: {[string]: any} = {}
+		
+		  for i = #self.Animation:GetChildren() - 1, 0, -1 do
+		    local keyframeGroup: Folder = self.Animation:FindFirstChild('keyframes_' .. tostring(i))
+		
+		    for _, keyframe: Keyframe in keyframeGroup:GetChildren() do
+		      local property = keyframe:GetAttribute('Property')
+		      if not propertiesFound[property] then
+		        propertiesFound[property] = true
+		        propertyValues[property] = keyframe:GetAttribute('Value')
+		      end
+		    end
+		  end
+		
+		  for property, value in propertyValues do
+		    self.Target[property] = value
+		  end
+		end
+		
+		return RoUI3
+    end
+    fake_module_scripts[script] = module_script
+end
+
+-- Fake Local Scripts:
+
+local function KXSFO_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Side.Executor.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Executor"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TweenService = game:GetService("TweenService")
+	
+	local MainUI = script.Parent.Parent.Parent.Parent.Main
+	local Tab = script.Parent.Parent.Parent.Executor
+	
+	local OpenTab = script.Parent
+	
+	local function TabOpen()
+		script.Parent.Parent.Parent.Credits.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.ScriptSearcher.Visible = false
+		Tab.Visible = true
+		Tab.Position = UDim2.new(0.103, 0,0.999, 0)
+		Tab.Transparency = 1
+		TweenService:Create(Tab, TweenInfo.new(0.8), {Position = UDim2.new(0.103, 0,0.172, 0)}):Play()
+		Tab.Transparency = 0.9
+		wait(0.1)
+		Tab.Transparency = 0.8
+		wait(0.1)
+		Tab.Transparency = 0.7
+		wait(0.1)
+		Tab.Transparency = 0.6
+		wait(0.1)
+		Tab.Transparency = 0.5
+		wait(0.1)
+		Tab.Transparency = 0.4
+		wait(0.1)
+		Tab.Transparency = 0.3
+		wait(0.1)
+		Tab.Transparency = 0.2
+		wait(0.1)
+		Tab.Transparency = 0.1
+		wait(0.1)
+		Tab.Transparency = 0
+	end
+	
+	local function OpenedTab()
+		print("Tab is already open..")
+	end
+	
+	OpenTab.MouseButton1Click:Connect(function()
+		if Tab.Visible == false then
+			TabOpen()
+		else
+			OpenedTab()
+		end
+	end)
+end
+local function NJNP_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Side.home.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_home"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TweenService = game:GetService("TweenService")
+	
+	local Tab = script.Parent.Parent.Parent.Home
+	
+	local OpenTab = script.Parent
+	
+	local function TabOpen()
+		script.Parent.Parent.Parent.Credits.Visible = false
+		script.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.ScriptSearcher.Visible = false
+		Tab.Visible = true
+		Tab.Position = UDim2.new(0.103, 0,0.999, 0)
+		Tab.Transparency = 1
+		TweenService:Create(Tab, TweenInfo.new(0.8), {Position = UDim2.new(0.103, 0,0.172, 0)}):Play()
+		Tab.Transparency = 0.9
+		wait(0.1)
+		Tab.Transparency = 0.8
+		wait(0.1)
+		Tab.Transparency = 0.7
+		wait(0.1)
+		Tab.Transparency = 0.6
+		wait(0.1)
+		Tab.Transparency = 0.5
+		wait(0.1)
+		Tab.Transparency = 0.4
+		wait(0.1)
+		Tab.Transparency = 0.3
+		wait(0.1)
+		Tab.Transparency = 0.2
+		wait(0.1)
+		Tab.Transparency = 0.1
+		wait(0.1)
+		Tab.Transparency = 0
+	end
+	
+	local function TabClosed()
+		script.Parent.Parent.Parent.Credits.Visible = false
+		script.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.ScriptSearcher.Visible = false
+		Tab.Visible = true
+		Tab.Position = UDim2.new(0.103, 0,-0.999, 0)
+		Tab.Transparency = 1
+		TweenService:Create(Tab, TweenInfo.new(0.8), {Position = UDim2.new(0.103, 0,0.172, 0)}):Play()
+		Tab.Transparency = 0.9
+		wait(0.1)
+		Tab.Transparency = 0.8
+		wait(0.1)
+		Tab.Transparency = 0.7
+		wait(0.1)
+		Tab.Transparency = 0.6
+		wait(0.1)
+		Tab.Transparency = 0.5
+		wait(0.1)
+		Tab.Transparency = 0.4
+		wait(0.1)
+		Tab.Transparency = 0.3
+		wait(0.1)
+		Tab.Transparency = 0.2
+		wait(0.1)
+		Tab.Transparency = 0.1
+		wait(0.1)
+		Tab.Transparency = 0
+	end
+	
+	
+	local function OpenedTab()
+		print("Tab is already open..")
+	end
+	
+	OpenTab.MouseButton1Click:Connect(function()
+		if Tab.Visible == true then
+			OpenedTab()
+		else
+			TabOpen()
+		end
+	end)
+end
+local function WUIKA_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Side.Settings.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Settings"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TweenService = game:GetService("TweenService")
+	
+	local Tab = script.Parent.Parent.Parent.Settings
+	
+	local OpenTab = script.Parent
+	
+	local function TabOpen()
+		script.Parent.Parent.Parent.Credits.Visible = false
+		script.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.ScriptSearcher.Visible = false
+		Tab.Visible = true
+		Tab.Position = UDim2.new(0.103, 0,0.999, 0)
+		Tab.Transparency = 1
+		TweenService:Create(Tab, TweenInfo.new(0.8), {Position = UDim2.new(0.103, 0,0.172, 0)}):Play()
+		for i = 1, 10 do
+			Tab.BackgroundTransparency = 1 - (i / 10)
+			task.wait(0.1)
+		end
+		-- easier instead of all dat stuff
+	end
+	
+	
+	local function OpenedTab()
+		print("Tab is already open..")
+	end
+	
+	OpenTab.MouseButton1Click:Connect(function()
+		if Tab.Visible == true then
+			OpenedTab()
+		else
+			TabOpen()
+		end
+	end)
+end
+local function HUFXKX_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Side.Credits.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Credits"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TweenService = game:GetService("TweenService")
+	
+	local Tab = script.Parent.Parent.Parent.Credits
+	
+	local OpenTab = script.Parent
+	
+	local function TabOpen()
+		script.Parent.Parent.Parent.Home.Visible = false
+		script.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.ScriptSearcher.Visible = false
+		Tab.Visible = true
+		Tab.Position = UDim2.new(0.103, 0,0.999, 0)
+		Tab.Transparency = 1
+		TweenService:Create(Tab, TweenInfo.new(0.8), {Position = UDim2.new(0.103, 0,0.172, 0)}):Play()
+		Tab.Transparency = 0.9
+		wait(0.1)
+		Tab.Transparency = 0.8
+		wait(0.1)
+		Tab.Transparency = 0.7
+		wait(0.1)
+		Tab.Transparency = 0.6
+		wait(0.1)
+		Tab.Transparency = 0.5
+		wait(0.1)
+		Tab.Transparency = 0.4
+		wait(0.1)
+		Tab.Transparency = 0.3
+		wait(0.1)
+		Tab.Transparency = 0.2
+		wait(0.1)
+		Tab.Transparency = 0.1
+		wait(0.1)
+		Tab.Transparency = 0
+	end
+	
+	
+	local function OpenedTab()
+		print("Tab is already open..")
+	end
+	
+	OpenTab.MouseButton1Click:Connect(function()
+		if Tab.Visible == true then
+			OpenedTab()
+		else
+			TabOpen()
+		end
+	end)
+end
+local function KYDXR_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Side.ScriptSearcher.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ScriptSearcher"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TweenService = game:GetService("TweenService")
+	
+	local Tab = script.Parent.Parent.Parent.ScriptSearcher
+	
+	local OpenTab = script.Parent
+	
+	local function TabOpen()
+		script.Parent.Parent.Parent.Credits.Visible = false
+		script.Parent.Parent.Parent.Executor.Visible = false
+		script.Parent.Parent.Parent.Settings.Visible = false
+		script.Parent.Parent.Parent.Home.Visible = false
+		Tab.Visible = true
+		Tab.Position = UDim2.new(0.103, 0,0.999, 0)
+		Tab.Transparency = 1
+		TweenService:Create(Tab, TweenInfo.new(0.8), {Position = UDim2.new(0.103, 0,0.172, 0)}):Play()
+		Tab.Transparency = 0.9
+		wait(0.1)
+		Tab.Transparency = 0.8
+		wait(0.1)
+		Tab.Transparency = 0.7
+		wait(0.1)
+		Tab.Transparency = 0.6
+		wait(0.1)
+		Tab.Transparency = 0.5
+		wait(0.1)
+		Tab.Transparency = 0.4
+		wait(0.1)
+		Tab.Transparency = 0.3
+		wait(0.1)
+		Tab.Transparency = 0.2
+		wait(0.1)
+		Tab.Transparency = 0.1
+		wait(0.1)
+		Tab.Transparency = 0
+	end
+	
+	
+	local function OpenedTab()
+		print("Tab is already open..")
+	end
+	
+	OpenTab.MouseButton1Click:Connect(function()
+		if Tab.Visible == true then
+			OpenedTab()
+		else
+			TabOpen()
+		end
+	end)
+end
+local function UDCDQQH_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Top.Close.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Close"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- do not modify
+	
+	local function printed()
+		print("Error 1")
+	end
+	local function Closed()
+		script.Parent.Visible = true
+	end
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Parent["Open Button"].Name == "Open Button" then
+			Closed()
+		else
+			printed()
+		end
+	end)
+end
+local function ADHKEL_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Top.Draggable
+    local script = Instance.new("LocalScript")
+    script.Name = "Draggable"
+    script.Parent = Converted["_Top"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	
+	local MainFrame = script.Parent.Parent.Parent.Main
+	local TopBar = MainFrame:WaitForChild("Top")
+	
+	local Camera = workspace:WaitForChild("Camera")
+	
+	local DragMousePosition
+	local FramePosition
+	
+	
+	local Draggable = false
+	
+	TopBar.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = true
+			DragMousePosition = Vector2.new(input.Position.X, input.Position.Y)
+			FramePosition= Vector2.new(MainFrame.Position.X.Scale, MainFrame.Position.Y.Scale)
+		end
+	end)
+	
+	TopBar.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = false
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if Draggable == true then
+			local NewPosition = FramePosition + ( (Vector2.new(input.Position.X, input.Position.Y) - DragMousePosition) / Camera.ViewportSize)
+			MainFrame.Position = UDim2.new(NewPosition.X, 0, NewPosition.Y, 0)
+		end
+	end)
+end
+local function UZKQ_fake_script() -- Fake Script: StarterGui.FrostWare.Main.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Main"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	task.wait(2)
+	warn("Please report any errors to the discord (discord.gg/getfrost)")
+end
+local function XHVLWL_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.BasicInfo.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_BasicInfo"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	--[[
+	
+	Rank Groups:
+	
+	1. Owner -- The creator of Frostware, currently: Jakey
+	2. Developer -- Developers of Frostware
+	3. COO -- higher Ups of frostware
+	4. Members -- Frostware Members
+	
+	---------------------------------------------------
+	Owner id: 3494826637
+	COO ids: 2877625446
+	Developer Ids: 3076617904
+	]]
+	
+end
+local function XRNUVHH_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.BasicInfo.FPS.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_FPS"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local txtlbl = script.Parent
+	local players = game:GetService("Players")
+	local player = players.LocalPlayer
+	
+	while wait() do
+		local fps = math.floor(1 / wait())
+		txtlbl.Text = "FPS: ".. fps
+	end
+end
+local function XOKXHE_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.BasicInfo.Subscription.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Subscription"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local PremiumPlayer = {2877625446,3076617904,3494826637}
+	
+	local SubscriptionTag = script.Parent.Parent.Subscription
+	
+	local Player = game.Players.LocalPlayer
+	
+	while wait() do
+		local isPremium = false
+		for _, id in pairs(PremiumPlayer) do
+			if Player.UserId == id then
+				isPremium = true
+				break
+			end
+		end
+		if isPremium then
+			SubscriptionTag.Text = "Premium"
+			SubscriptionTag.TextColor3 = Color3.fromRGB(30, 0, 255)
+		else
+			SubscriptionTag.Text = "Free"
+			SubscriptionTag.TextColor3 = Color3.fromRGB(13, 255, 0)
+		end
+	end
+end
+local function USHZEG_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.BasicInfo.Rank.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Rank"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local owner = 3494826637
+	 
+	local Coo = {2877625446}
+	
+	local Developer = {3076617904, 2290365535}
+	
+	local Ranktag = script.Parent.Parent.Rank
+	
+	local Player = game.Players.LocalPlayer
+	
+	
+	while wait() do
+		if Player.UserId == owner then
+			Ranktag.Text = "Owner"
+			Ranktag.TextColor3 = Color3.fromRGB(255, 255, 0)
+		end
+	for _, id in pairs(Coo) do
+	if Player.UserId == id then
+			Ranktag.Text = "COO"
+			Ranktag.TextColor3 = Color3.fromRGB(255, 0, 0)
+	    return
+	end
+	end
+	for _, id2 in pairs(Developer) do
+	if Player.UserId == id2 then
+			Ranktag.Text = "Developer"
+			Ranktag.TextColor3 = Color3.fromRGB(0, 255, 255)
+		return
+	end
+	end
+			Ranktag.Text = "Member"
+			Ranktag.TextColor3 = Color3.fromRGB(13, 255, 0)
+	end
+end
+local function RSIRTSU_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.user.Frame.User.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_User"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local image = script.Parent
+	image.Image = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId,Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+end
+local function HKYG_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.user.UserText.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_UserText"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local user = game.Players.LocalPlayer.Name
+	local txt = script.Parent
+	
+	txt.Text = "Welcome, "..user
+end
+local function FZJCOX_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.Extend.Credits2.Close.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Close1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TweenService = game:GetService("TweenService")
+	local Tab = script.Parent.Parent
+	
+	
+	local function Close()
+		Tab.Position = UDim2.new(-7.204, 0,-2.56, 0)
+		Tab.Transparency = 1
+		TweenService:Create(Tab, TweenInfo.new(0.8), {Position = UDim2.new(0.999, 0,0.999, 0)}):Play()
+		Tab.Transparency = 0.9
+		wait(0.1)
+		Tab.Transparency = 0.8
+		wait(0.1)
+		Tab.Transparency = 0.7
+		wait(0.1)
+		Tab.Transparency = 0.6
+		wait(0.1)
+		Tab.Transparency = 0.5
+		wait(0.1)
+		Tab.Transparency = 0.4
+		wait(0.1)
+		Tab.Transparency = 0.3
+		wait(0.1)
+		Tab.Transparency = 0.2
+		wait(0.1)
+		Tab.Transparency = 0.1
+		wait(0.1)
+		Tab.Transparency = 0
+	end
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Visible == true then
+			Close()
+		else
+			print("Error 2 (Can not close bc of smt tell devs to check the code")
+		end
+	end)
+	
+end
+local function NYPU_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.Extend.Credits2.ImageLabel.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ImageLabel1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local dietcoke = 2290365535
+	local image = script.Parent
+	
+	image.Image = game.Players:GetUserThumbnailAsync(dietcoke, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+	
+end
+local function FVGB_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Home.Extend.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Extend"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local RoUI3 = require(script.Parent.Parent.Parent.Parent.RoUI3)
+	
+	local controller = RoUI3.new() 
+	
+	local myAnimation = controller:LoadAnimation(script.Parent.Parent.Parent.Parent["RoUI3 Exports"].Credits2, script.Parent.Credits2)
+	
+	local Extend = script.Parent
+	
+	local Credits2 = script.Parent.Credits2
+	
+	local function play()
+		myAnimation:Play({
+			TimeScale = 0.94
+		})
+	end
+	
+	local function Closed()
+		print("Window already is closed")
+	end
+	
+	Extend.MouseButton1Click:Connect(function()
+		if  Credits2.BackgroundTransparency == 0.3 then
+			Closed()
+		else
+			play()
+		end
+	end)
+end
+local function KGMXFBX_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Executor.Code.Clear.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Clear"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TextBox = script.Parent.Parent
+	local ClearButton = script.Parent
+	ClearButton.MouseButton1Click:Connect(function()
+		TextBox.Text = ""
+	end)
+	
+end
+local function RPJDWD_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Executor.Code.Execute.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Execute"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local TextBox = script.Parent.Parent
+	
+	local ExecuteButton = script.Parent
+	ExecuteButton.MouseButton1Click:Connect(function()
+		local luaCode = TextBox.Text
+		local success, err = pcall(function()
+			loadstring(luaCode)()
+		end)
+	
+		if not success then
+			warn("The script is either pathced or does not work and for that reason your code could'nt run, if issue stays even after using more scripts,contact developers, Error Code: 1" .. err)
+		end
+	end)
+	
+end
+local function GOORHG_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Executor.Code.Paste.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Paste"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	TextBox = script.Parent.Parent
+	TextBox.Text = getclipboard()
+end
+local function HWEQNJ_fake_script() -- Fake Script: StarterGui.FrostWare.Main.Credits.ImageLabel.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ImageLabel3"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local dietcoke = 2290365535
+	local image = script.Parent
+	
+	image.Image = game.Players:GetUserThumbnailAsync(dietcoke, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+	
+end
+local function EZQL_fake_script() -- Fake Script: StarterGui.FrostWare.Main.ScriptSearcher.Text.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Text"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local HttpService = game:GetService("HttpService")
+	local searchBox = script.Parent
+	local searchButton = script.Parent:WaitForChild("Search")
+	local resultsFrame = script.Parent.Parent:WaitForChild("Results-Scroll")
+end
+local function IBPHMTC_fake_script() -- Fake Script: StarterGui.FrostWare.Main.ScriptSearcher.Clear.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Clear1"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Text.Text = ""
+	end)
+	
+end
+local function AVTB_fake_script() -- Fake Script: StarterGui.FrostWare.Open Button.Drag
+    local script = Instance.new("LocalScript")
+    script.Name = "Drag"
+    script.Parent = Converted["_Open Button"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	
+	local MainFrame = script.Parent
+	local TopBar = script.Parent
+	
+	local Camera = workspace:WaitForChild("Camera")
+	
+	local DragMousePosition
+	local FramePosition
+	
+	
+	local Draggable = false
+	
+	TopBar.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = true
+			DragMousePosition = Vector2.new(input.Position.X, input.Position.Y)
+			FramePosition= Vector2.new(MainFrame.Position.X.Scale, MainFrame.Position.Y.Scale)
+		end
+	end)
+	
+	TopBar.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = false
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if Draggable == true then
+			local NewPosition = FramePosition + ( (Vector2.new(input.Position.X, input.Position.Y) - DragMousePosition) / Camera.ViewportSize)
+			MainFrame.Position = UDim2.new(NewPosition.X, 0, NewPosition.Y, 0)
+		end
+	end)
+end
+local function VGBTLAT_fake_script() -- Fake Script: StarterGui.FrostWare.DONT DELETE
+    local script = Instance.new("LocalScript")
+    script.Name = "DONT DELETE"
+    script.Parent = Converted["_FrostWare"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	--DONE DELETE I NEED TIS TO REMEMBE rSTUFF
+	ScreenGui.Parent = gethui()
+end
+local function RCABJQN_fake_script() -- Fake Script: StarterGui.FrostWare.UIOpened
+    local script = Instance.new("LocalScript")
+    script.Name = "UIOpened"
+    script.Parent = Converted["_FrostWare"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local RoUI3 = require(script.Parent.RoUI3)
+	
+	local controller = RoUI3.new() 
+	
+	local myAnimation = controller:LoadAnimation(script.Parent["RoUI3 Exports"].Main, script.Parent.Main)
+	
+	local Open = script.Parent["Open Button"]
+	
+	local Mainframe = script.Parent.Main
+	
+	local function play()
+		myAnimation:Play({
+			TimeScale = 0.84
+		})
+	end
+	
+	local function Opened()
+		print("Frostware is opened")
+	end
+		
+	Open.MouseButton1Click:Connect(function()
+		if Mainframe.BackgroundTransparency == 0.3 then
+		    Opened()
+		else
+			play()
+		end
+	end)
+end
+local function XPLT_fake_script() -- Fake Script: StarterGui.FrostWare.UIClosed
+    local script = Instance.new("LocalScript")
+    script.Name = "UIClosed"
+    script.Parent = Converted["_FrostWare"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local RoUI3 = require(script.Parent.RoUI3)
+	
+	local controller = RoUI3.new() 
+	
+	local myAnimation = controller:LoadAnimation(script.Parent["RoUI3 Exports"].Main2, script.Parent.Main)
+	
+	local Close = script.Parent.Main.Top.Close
+	
+	local Mainframe = script.Parent.Main
+	
+	local function play()
+		myAnimation:Play({
+			TimeScale = 0.84
+		})
+	end
+	
+	local function Closed()
+		print("Frostware is closed")
+	end
+	
+	Close.MouseButton1Click:Connect(function()
+		if Mainframe.BackgroundTransparency == 1 then
+			Closed()
+		else
+			play()
+		end
+	end)
+	
+end
+
+coroutine.wrap(KXSFO_fake_script)()
+coroutine.wrap(NJNP_fake_script)()
+coroutine.wrap(WUIKA_fake_script)()
+coroutine.wrap(HUFXKX_fake_script)()
+coroutine.wrap(KYDXR_fake_script)()
+coroutine.wrap(UDCDQQH_fake_script)()
+coroutine.wrap(ADHKEL_fake_script)()
+coroutine.wrap(UZKQ_fake_script)()
+coroutine.wrap(XHVLWL_fake_script)()
+coroutine.wrap(XRNUVHH_fake_script)()
+coroutine.wrap(XOKXHE_fake_script)()
+coroutine.wrap(USHZEG_fake_script)()
+coroutine.wrap(RSIRTSU_fake_script)()
+coroutine.wrap(HKYG_fake_script)()
+coroutine.wrap(FZJCOX_fake_script)()
+coroutine.wrap(NYPU_fake_script)()
+coroutine.wrap(FVGB_fake_script)()
+coroutine.wrap(KGMXFBX_fake_script)()
+coroutine.wrap(RPJDWD_fake_script)()
+coroutine.wrap(GOORHG_fake_script)()
+coroutine.wrap(HWEQNJ_fake_script)()
+coroutine.wrap(EZQL_fake_script)()
+coroutine.wrap(IBPHMTC_fake_script)()
+coroutine.wrap(AVTB_fake_script)()
+coroutine.wrap(VGBTLAT_fake_script)()
+coroutine.wrap(RCABJQN_fake_script)()
+coroutine.wrap(XPLT_fake_script)()
